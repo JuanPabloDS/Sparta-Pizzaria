@@ -1,0 +1,115 @@
+body{
+	background-color: black;
+	width: 1500px;
+	height: 3000px;
+}
+
+.principal {
+	background-color: white;
+	
+	width: 1400px;
+	height: 2500px;
+	padding: 0px;
+	margin-left:50px; 		
+}
+
+.menu {
+	background-color: black;
+	color:#ebd1a4;
+	
+	height: 190px;
+}
+.navegacao{
+	height: 70px;
+	color:#ebd1a4;
+}
+
+
+.login {
+	margin-left:5px;
+	padding-bottom: 15px;
+	color:#ebd1a4;
+}
+.menu2 {
+	width: 100%;
+	height: 90px;
+	
+}
+.cor {
+	color:#ebd1a4;
+}
+.backcor {
+	border-color: #ebd1a4;
+	color:#ebd1a4;
+
+
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+	margin-left:55px;
+	margin-bottom:35px;
+	float:left;
+
+}
+.reserva {
+	width: 200px;
+	height: 25px;
+	float:right;
+	margin-right:35px;
+}
+.slide {
+	width: 100%;
+	height: 700px;
+
+}
+.menu3 {
+	 text-align: center;
+	 padding-top: 30px;
+	 color: black;
+}
+.imagem {
+	width: 150px;
+	height: 130px;
+	padding-top: 30px;
+
+
+}
+.texto {
+	text-align: left;
+	padding-left: 100px;
+}
+.pizza {
+	width: 460px;
+	height: 200px;
+	float: right;
+	padding-left: 50px;	
+	
+}
+.pizza th {
+	padding-bottom: 100px;	
+
+}
+.pizza h5 {
+	padding-left: 200px;	
+
+}
+.pizza h3 {
+	padding-left: 200px;	
+
+}
+.pizzatexto {
+	padding-left:0px;
+}
+.imagem2 {
+	width: 150px;
+	height: 130px;
+	float:left;
+}
+.rodape {
+	background-color: black;
+	width:150px;
+	height: 150px;
+
+}
