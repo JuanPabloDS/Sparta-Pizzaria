@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<head lang="pt-br">
-	<meta charset=utf-8>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>SPARTA PIZZARIA</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
-</head>
-<body>
+<?php include './layout/header.php'; ?>
+<?php include './layout/menu.php'; ?>
+
+
+
 <div class="pizzas-salgadas">
 <img src="assets\img\cardapio-pizzaria-sparta-salgado.png" class="img-fluid " >
 <section class="service">
@@ -167,5 +162,7 @@
 <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-</body>
-</html>
+
+
+
+<?php include './layout/footer.php'; ?>
