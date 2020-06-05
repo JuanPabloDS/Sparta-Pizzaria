@@ -5,7 +5,7 @@
 
 
 <div class="pizzas-salgadas">
-<img src="assets\img\cardapio-pizzaria-sparta-salgado.png" class="img-fluid " >
+<img src="assets\img\cardapio-pizzaria-sparta-salgado.png" class="img-fluid slide3 " >
 <section class="service">
   <div class="container">
     <div class="price-listing position-relative p-5">
@@ -123,7 +123,7 @@
 </div>
 
 <div class="pizzas-doces">
-<img src="assets\img\cardapio-pizzaria-sparta-doce.png" class="img-fluid full-width">	
+<img src="assets\img\cardapio-pizzaria-sparta-doce.png" class="img-fluid slide3">	
 <section class="service">
   <div class="container">
     <div class="price-listing position-relative p-5">

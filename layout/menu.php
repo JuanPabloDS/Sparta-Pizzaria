@@ -1,5 +1,5 @@
 <body class="">
-  <div class="principal">
+  <div class="principal ">
 
   <div class="menu ">
       <nav class="navbar navbar-expand-lg ">
@@ -35,15 +35,16 @@
       <div class="menu2">
         <form>
                     
-                      <a class="bt bt-lj reserva" href="#"><span class="jaw-menu-href-title">RESERVE SEU LOCAL</a>
+                      <a class="bt bt-lj btn-outline-warning reserva " href="#"><span class="jaw-menu-href-title">RESERVE SEU LOCAL</span></a>
               </form>
                   <img class="logo" src="assets\img\logo.png" class="logo" alt="Logo" title="Logo Sparta Pizzaria">     
               <br>
               <br>
               <form>
-                      <a class="bt bt-lj reserva" href="#"><span class="jaw-menu-href-title">FAÇA SEU PEDIDO</a>
+                      <a class="bt bt-lj btn-outline-warning reserva" href="#"><span class="jaw-menu-href-title">FAÇA SEU PEDIDO</span></a>
                   
                 </form>
         
                   
       </div>
+    </div>

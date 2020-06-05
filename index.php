@@ -1,6 +1,6 @@
 <?php include './layout/header.php'; ?>
 <?php include './layout/menu.php'; ?>
-	</div>
+
 		<div class="linha">
 			</div>
 			<div class="slide">
@@ -12,13 +12,13 @@
 					  </ol>
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <img class="d-block w-100 slide" src="assets\img\slide1.jpg">
+					      <img class="d-block w-100 slide2" src="assets\img\slide1.jpg">
 					    </div>
 					    <!-- <div class="carousel-item">
 					      <img class="d-block w-100 slide" src="assets\img\slide2.jpg" alt="Segundo Slide">
 					    </div> -->
 					    <div class="carousel-item">
-					      <img class="d-block w-100 slide" src="assets\img\slide3.jpg" alt="Terceiro Slide">
+					      <img class="d-block w-100 slide2" src="assets\img\slide3.jpg" alt="Terceiro Slide">
 					    </div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -31,22 +31,60 @@
 					  </a>
 					  <div class="linha">
 					</div>
+				</div>
 			</div>
-			<div>
-				<table class="table table-bordered menu2">
+
+
+			<div class="contexto">
+			<div class="menuCor">
+				<div>
+				<table class="menu2">
 				  <thead>
 				    <tr>
-				      <th class="menu3" scope="col"><a href="cardapio.php"><font color="black"><img class=" imagem " src="assets\img\cardapio.jpg"><br><br>CARDÁPIO</a></th>
-				      <th class="menu3" scope="col"><a href="cardapio.php"><font color="black"><img class=" imagem " src="assets\img\rodizio.jpg"><br><br>RODIZIO</a></th>
-				      <th class="menu3" scope="col"><a href="cardapio.php"><font color="black"><img class=" imagem " src="assets\img\delivery.jpg"><br><br>DELIVERY</a></th>
-				      <th class="menu3" scope="col"><a href="cardapio.php"><font color="black"><img class=" imagem " src="assets\img\novidades.jpg"><br><br>NOVIDADES</a></th>
+				      <th class="menu3" scope="col">
+				      	<div class="borda2">
+				      	<a href="cardapio.php"><font color="black">
+				      		<img class=" imagem " src="assets\img\cardapio.jpg">
+				      		<br><br>CARDÁPIO</font> 
+				      	</a> 
+				      </div>
+				      </th>
+				      <th class="menu3" scope="col">
+				      <div class="borda2">
+				      	<a href="cardapio.php">
+				      		<font color="black">
+				      			<img class=" imagem " src="assets\img\rodizio.jpg">
+				      			<br><br>RODIZIO 
+				      		</font> 
+				      		</a>
+				      	</div>
+				      </th> 
+				      </th>
+				      <th class="menu3" scope="col">
+				      	<div class="borda2">
+				      	<a href="cardapio.php">
+				      		<font color="black">
+				      			<img class=" imagem " src="assets\img\delivery.jpg"><br><br>DELIVERY
+				      		</font> 
+				      	</a>
+				      </div>
+				      </th>
+				      <th class="menu3" scope="col">
+				      	<div class="borda2">
+				      	<a href="cardapio.php">
+				      		<font color="black">
+				      			<img class=" imagem " src="assets\img\novidades.jpg"><br><br>NOVIDADES
+				      		</font> 
+				      	</a>
+				      </div>
+				      </th>
 				    </tr>
 				  </thead>
 				</table>
 			</div>
-				<br><br>
-				<br><br>
-			<div>
+			<br><br>
+			<br><br>
+			<div class="promocao ">
 				<table class="table table-bordered">
 				  <thead>
 				    <tr scope="col">
@@ -60,98 +98,160 @@
 					Venha se deliciar e explorar os nossos sabores exclusivos.
 					</h4>
 					<br><br>
-					<h4 align="center">PROMOÇÕES</h4>
 					<br><br>
 				    </tr>
 				  </thead>
 				</table>
-				<table class=" pizza ">
-				  <thead>
-				    <tr>
-				      <th class="" scope="col">
-				      	<form >
-				      	<img class="imagem2" src="assets\img\basca.png">
-				      	<h3 class="pizzatexto">BASCA</h3>
-				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
-				      	</form>
-				      </th>
-				    </tr>
-				  </thead>
-				</table>
-				<table class="pizza ">
-				  <thead>
-				    <tr>
-				      <th class="" scope="col">
-				      	<form >
-				      	<img class="imagem2" src="assets\img\basca.png">
-				      	<h3 class="pizzatexto">BASCA</h3>
-				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
-				      	</form>
-				      </th>
-				    </tr>
-				  </thead>
-				</table>
-				<table class="pizza ">
-				  <thead>
-				    <tr>
-				      <th class="" scope="col">
-				      	<form >
-				      	<img class="imagem2" src="assets\img\basca.png">
-				      	<h3 class="pizzatexto">BASCA</h3>
-				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
-				      	</form>
-				      </th>
-				    </tr>
-				  </thead>
-				</table>
-				<table class="pizza ">
-				  <thead>
-				    <tr>
-				      <th class="" scope="col">
-				      	<form >
-				      	<img class="imagem2" src="assets\img\basca.png">
-				      	<h3 class="pizzatexto">BASCA</h3>
-				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
-				      	</form>
-				      </th>
-				    </tr>
-				  </thead>
-				</table>
-				<table class="pizza ">
-				  <thead>
-				    <tr>
-				      <th class="" scope="col">
-				      	<form >
-				      	<img class="imagem2" src="assets\img\basca.png">
-				      	<h3 class="pizzatexto">BASCA</h3>
-				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
-				      	</form>
-				      </th>
-				    </tr>
-				  </thead>
-				</table>
-				<table class="pizza ">
-				  <thead>
-				    <tr>
-				      <th class="" scope="col">
-				      	<form >
-				      	<img class="imagem2" src="assets\img\basca.png">
-				      	<h3 class="pizzatexto">BASCA</h3>
-				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
-				      	</form>
-				      </th>
-				    </tr>
-				  </thead>
-				</table>
 			</div>
-			<div>
+			<br><br>
+				<div class="tela">
+				    <div class="container promocao2">
+					<h4 align="center"><b>PROMOÇÕES</b></h4>
+					</div>
+				</div>
 
+			<div class="">
+				<div class=" pizza ">
+				<table>
+				  <thead>
+				    <tr>
+				      <td class="" scope="col">
+				      	<form >
+				      	<img class="imagem2" src="assets\img\basca.png">
+				      	<h3 class="pizzatexto">BASCA</h3>
+				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+				      	</form>
+				      </td>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
+				<div class=" pizza ">
+				<table class="">
+				  <thead>
+				    <tr>
+				      <td class="" scope="col">
+				      	<form >
+				      	<img class="imagem2" src="assets\img\basca.png">
+				      	<h3 class="pizzatexto">BASCA</h3>
+				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+				      	</form>
+				      </td>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
+				<div class=" pizza ">
+				<table class="">
+				  <thead>
+				    <tr>
+				      <td class="" scope="col">
+				      	<form >
+				      	<img class="imagem2" src="assets\img\basca.png">
+				      	<h3 class="pizzatexto">BASCA</h3>
+				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+				      	</form>
+				      </td>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
+				<div class=" pizza ">
+				<table class="">
+				  <thead>
+				    <tr>
+				      <td class="fonte" scope="col">
+				      	<form >
+				      	<img class="imagem2" src="assets\img\basca.png">
+				      	<h3 class="pizzatexto">BASCA</h3>
+				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+				      	</form>
+				      </td>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
+				<div class=" pizza ">
+				<table class="">
+				  <thead>
+				    <tr>
+				      <td class="" scope="col">
+				      	<form >
+				      	<img class="imagem2" src="assets\img\basca.png">
+				      	<h3 class="pizzatexto">BASCA</h3>
+				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+				      	</form>
+				      </td>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
+				<div class=" pizza ">
+				<table class="">
+				  <thead>
+				    <tr>
+				      <td class="" scope="col">
+				      	<form >
+				      	<img class="imagem2" src="assets\img\basca.png">
+				      	<h3 class="pizzatexto">BASCA</h3>
+				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+				      	</form>
+				      </td>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
+				<div class=" pizza ">
+				<table class="">
+				  <thead>
+				    <tr>
+				      <td class="" scope="col">
+				      	<form >
+				      	<img class="imagem2" src="assets\img\basca.png">
+				      	<h3 class="pizzatexto">BASCA</h3>
+				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+				      	</form>
+				      </td>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
+					<div class=" pizza ">
+				<table class="">
+				  <thead>
+				    <tr>
+				      <td class="" scope="col">
+				      	<form >
+				      	<img class="imagem2" src="assets\img\basca.png">
+				      	<h3 class="pizzatexto">BASCA</h3>
+				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+				      	</form>
+				      </td>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
+				<div class=" pizza ">
+				<table class="">
+				  <thead>
+				    <tr>
+				      <td class="" scope="col">
+				      	<form >
+				      	<img class="imagem2" src="assets\img\basca.png">
+				      	<h3 class="pizzatexto">BASCA</h3>
+				      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+				      	</form>
+				      </td>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
 			</div>
-				
-
-
+		</div>
 	</div>
-
+		</div>
+	</div>
+		
 
 
 
