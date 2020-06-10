@@ -1,10 +1,8 @@
 <?php include './layout/header.php'; ?>
 <?php include './layout/menu.php'; ?>
 
-		<div class="linha">
-			</div>
 			<div class="slide">
-				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<div id="" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -12,7 +10,7 @@
 					  </ol>
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <img class="d-block w-100 slide2" src="assets\img\slide1.jpg">
+					      <img class="slide2" src="assets\img\slide1.jpg">
 					    </div>
 					    <!-- <div class="carousel-item">
 					      <img class="d-block w-100 slide" src="assets\img\slide2.jpg" alt="Segundo Slide">
