@@ -23,10 +23,8 @@
               </li>
             </ul>
             <div class="menu3 container col-2">
-
-            <img class="logo" src="assets\img\logo.png" class="logo" alt="Logo" title="Logo Sparta Pizzaria">
-
-          </div>
+              <img class="logo" src="assets\img\logo1.png" class="logo" alt="Logo" title="Logo Sparta Pizzaria">
+            </div>
             
             <form class="form-inline cor" >
               <input class="form-control  pesquisa cor   " type="search" placeholder="Pesquisar" aria-label="Pesquisar">

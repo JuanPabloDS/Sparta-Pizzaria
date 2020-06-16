@@ -11,14 +11,26 @@ body{
 }
 
 .menu {
-	background-color: black;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 290%);
+    background-repeat: no-repeat, repeat;
 	color:#ebd1a4;
 	width: 100%;
 	height: 90px;
 }
+.absoluto {
+	position: absolute;
+}
 
 .menu-fixo {
-	background-color: black;
+	color:#ebd1a4;
+	width: 100%;
+	height: 90px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 290%);
+    background-repeat: no-repeat, repeat;
+
+}
 	color:#ebd1a4;
 	width: 100%;
 	height: 90px;
@@ -54,7 +66,7 @@ text-align: center;
 .menuCor {
 	background-color: white;
 	width:100%;
-	height:1000px;
+	height:500px;
 
 }
 .logar{
@@ -96,18 +108,19 @@ text-align: center;
 	color:#ebd1a4;
 
 }
-.contexto {
-	width:100%;
-	height:1700px;
-
-}
-
 .promocao {
-	width: 1300px;
+	width: 100%;
 	height:230px;
-	border-top: 2px solid #dee2e6;
+	padding-top: 2%;
+	padding-right: 2%;
 	border-bottom: 1px solid #dee2e6;
-	margin-left: 100px;
+	color:black;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, white 70%, black 400%);
+    background-repeat: no-repeat, repeat;
+	font-weight: bold;
+	border-radius: 10px;
+
 
 
 }
@@ -116,6 +129,10 @@ text-align: center;
 	width: 100%;
 	height: 100%;
 	border-right: 3px solid #dee2e6;
+	color:#ebd1a4;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, white 70%, black 400%);
+    background-repeat: no-repeat, repeat;
 
 }
 
@@ -123,9 +140,14 @@ text-align: center;
 	width: 100%;
 	height: 130px;
 }
+.btn-outline-warning {
+	color: #ebd1a4;
+	border-color:#ebd1a4;
+}
 
 .promocao h4 {
 	margin-top: 30px;
+
 }
 
 .promocao2 {
@@ -147,11 +169,27 @@ text-align: center;
 
 }
 
+.promocao10 {
+	border: 2px solid #787716;
+	width: 25%;
+	height:50px;
+	border-radius: 15px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 130%);
+    background-repeat: no-repeat, repeat;
+    color: #ebd1a4;
+    margin-bottom: 20px;
+}
+
+.promocao10 h4 {
+	margin-top:10px;
+}
+
 .logo {
 	width: 40px;
 	height: 40px;
-	margin-top: 0px;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 25px;
 }
 
 .logo2 {
@@ -193,7 +231,6 @@ text-align: center;
 }
 .menu3 {
 	 text-align: center;
-	 padding-top: 30px;
 	 color: black;
 }
 .imagem {
@@ -207,36 +244,8 @@ text-align: center;
 	text-align: left;
 	padding-left: 100px;
 }
-.pizza {
-	width: 460px;
-	height: 200px;
-	float: left;
-	padding-left: 50px;
-	font-size:15px;
-	margin-bottom:80px;
-	
-}
 
-.fonte{
-	font-size:15;	
-}
-.pizza td {
-	padding-bottom: 100px;	
 
-}
-.pizza p {
-	padding-left: 200px;	
-
-}
-.pizza h3 {
-	padding-left: 200px;	
-}
-.pizza h5 {
-	padding-left: 200px;
-	font-size:20px;	
-}	
-
-}
 
 .pizzatexto {
 	padding-left:0px;
@@ -245,6 +254,7 @@ text-align: center;
 	width: 150px;
 	height: 130px;
 	float:left;
+	margin: 0px;
 }
 .rodape {
 	background-color: black;
@@ -268,9 +278,7 @@ text-align: center;
 
 .icone2 {
 	margin-top:20px;
-	width: 40px;
-	height: 50px;
-	padding: 0;
+	
 
 
 }
@@ -296,152 +304,192 @@ text-align: center;
 	font-size: 15px;
 }
 
+.medidas-in {
+
+	width:100%;
+	height:100px;
+	padding-top:20px;
+
+}
+
+/*index
+*/
+
+
+.pizza {
+	width: 33%;
+	height: 33%;	
+	float: left;
+	padding-left: 50px;
+	font-size:15px;
+
+	
+}
+
+.fonte{
+	font-size:15;	
+}
+.pizza td {
+	padding-bottom: 100px;	
+
+}
+.pizza p {
+	padding-left: 200px;	
+
+}
+.pizza h3 {
+	padding-left: 200px;
+	font-size: 200%;	
+}
+.pizza h5 {
+	padding-left: 200px;
+	font-size: 100%;	
+}
+
+.meio-index {
+	width:100%;
+	height:1000px;
+	padding-bottom: 50px;
+}
+
+.meio-index2 {
+	width:100%;
+	height:100%;
+	padding-top: 50px;
+}
+
+.forma-pizza {
+	width:100%;
+	height:70%;
+	border: 1px solid #787716;
+	color:#ebd1a4;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 150%);
+    background-repeat: no-repeat, repeat;
+	border: 3px solid #787716;
+	border-radius: 10px;
+	padding-top: 30px;
+}
+
+
 /*footer
 */
-footer {
-	background-color: black;
-	padding-top: 10px;
-	border-top: 5px solid #787716;
-	width:100%;
-	font-size: 12px;
-}
 
-footer h2, footer p, footer a, footer span {
-	color: #D1D1D1;
-}
-
-footer h2 {
-	font-weight: 400;
-}
-
-footer a {
-	text-decoration: none;
-}
-
-footer ul {
-	padding: 0;
-	width: 30px;
-}
-.footer-tamanho {
-	width:500px;
-	padding-right: 50px;
-	position: absolute;
-
-
-}
-
-.footer-tamanho table {
-	width:500px;
-}
-
-.quebraLinha {
-	
-	padding-left:0px;
-
-
-}
-
-.quebra-linha {
-	padding-left:0px;
-	margin-left:25px;
-
-}
-
-.separa {
-	width:75px;
-}
-
-.margin-left {
-	margin-left:0px;
-	width: 500px;
-	float:right;
-	padding-right: 63%;
-	margin-top:15px;
-	
-}
-
-.margin-left a{
-	
-}
-
-.tamanho {
-	height: 100px;
-}
-.tamanho-div{
-	width: 100px;
-}
-.margem {
-	margin-left: 10px;
-}
-footer li {
-	list-style: none;
-	float: right;
-}
-
-.footer-box {
-	width: 31%;
-	padding: 1%;
-	float: left;
-}
-
-.wrapper {
-	height:100px;
-
-}
-
-footer .wrapper:after {
-	clear: both;
-	content: "";
-	display: block;
-}
-
-.company-footer {
-	width: 100px;
-
-}
-
-
-.articles-footer {
+.fotter-classe {
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 290%);
+    background-repeat: no-repeat, repeat;
+	color:#ebd1a4;
 	width: 100%;
+	height: 90px;
 }
 
-.footer-list.footer-article-list span {
-	display: block;
-	float: none;
+.icone-footer {
+	width:5%;
+	height:100%;
+	float: left;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-right: 10px;
+
 }
 
-.fab {
+.icone-tamanho {
+	
+	width:80%;
+	height:40%;
+	margin-top:5px;
+	float: left;
+}
+
+.icone-tamanho4{
 	font-size: 30px;
-	margin-right: 10px;
+	color: #ebd1a4;
+
+}
+
+.icone-tamanho2{
+	width:100%;
+	height:100%;
+}
+
+.icone-tamanho3{
+	width:60px;
+	height:60px;
 	float: left;
+	font-size: 100%;
 }
 
-.footer-list li span {
+.footer-meio {
+	width:100%;
+	height:100%;
+}
+
+.meio {
+	width:30%;
+	height:100%;
+	padding: 0px;
+	
+}
+
+.meio-cont {
+	width:20%;
+	height:100%;
 	float: left;
-	height: 30px;
-	line-height: 30px;
+	padding-left: 2%;
+	color:#ebd1a4;
 }
 
-.footer-bottom {
-	border-top: 1px solid #B2B2B2;
+.meio-cont a{
+	color:#ebd1a4;
 }
 
-.footer-bottom p {
-	font-weight: 600;
-	margin-top: 40px;
+.forma {
+	width: 50%;
+	height:100%;
+	font-size: 80%;
+	margin-left: 80%;
+	padding-top: 30%;
+
 }
-.icone3 {
-	height: 100px;
-	width: 100px;
+
+.forma1 {
+	width: 90%;
+	height:100%;
+	font-size: 80%;
+	margin-left: 40%;
+	padding-top: 30%;
+}
+.forma2 {
+	width: 50%;
+	height:100%;
+	font-size: 80%;
+	margin-left: 25%;
+	padding-top: 20%;
+}
+
+.forma3 {
+	width: 100%;
+	height:100%;
+	font-size: 80%;
+	padding-top: 30%;
+	margin-left: 25%;
+}
+
+.forma4 {
+	width: 60%;
+	height:100%;
+	font-size: 80%;
+	padding-top: 30%;
+	margin-left: 30%;
 }
 
 /* class applies to select element itself, not a wrapper element */
 .select-css {
     display: block;
     font-size: 16px;
-    font-family: sans-serif;
     font-weight: 700;
-    color: #444;
+    color: black;
     line-height: 1.3;
     float: left;
     padding: 0.9%;
@@ -450,19 +498,16 @@ footer .wrapper:after {
     box-sizing: border-box;
     margin-top: 7px;
     margin-left: 12%;
-    border: 1px solid #aaa;
-    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
     border-radius: .5em;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background-color: #fff;
     /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
         for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
         
     */
     background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
-      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+      linear-gradient(to bottom, #f1d300 70%, white 130%);
     background-repeat: no-repeat, repeat;
     /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
     background-position: right .7em top 50%, 0 0;
@@ -497,8 +542,16 @@ footer .wrapper:after {
 	/*pedido
 */
 
+.pedido {
+	height:100%;
+	width:100%;
+	background-color: white;
+	color: #ebd1a4;
+
+}
+
 .medidas {
-	background-color: green;
+
 	width:100%;
 	height:100px;
 	padding-top:20px;
@@ -511,10 +564,13 @@ footer .wrapper:after {
 }
 
 .promocao3 {
-	border: 1px solid #787716;
+	border: 2px solid #787716;
 	width: 25%;
 	height:50px;
 	border-radius: 15px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 130%);
+    background-repeat: no-repeat, repeat;
 }
 
 .promocao3 h4 {
@@ -522,7 +578,7 @@ footer .wrapper:after {
 }
 
 .medidas2 {
-	background-color: red;
+
 	width:100%;
 	height:70px;
 
@@ -530,7 +586,6 @@ footer .wrapper:after {
 }
 
 .promocao4 {
-	background-color: black;
 	width: 60%;
 	height:50px;
 }
@@ -564,30 +619,47 @@ footer .wrapper:after {
 }
 
 .metade {
-	background-color: pink;
+	
 	width:100%;
 	height:500px;
 }
 
 .sabor {
-	background-color: black;
+	background-color: #fff9f9;
 	width: 30%;
 	height:500px;
 	float: left;
+	border-radius: 30px;
+	border: 2px solid #787716;
+
+}
+
+.sabor img {
+	width: 70%;
+	height: 100%;
+	float: right;
 }
 
 .sabor2 {
-	background-color: gold;
+	background-color: #fff9f9;
 	width: 30%;
 	height:500px;
 	float: left;
+	border-radius: 30px;
+	border: 2px solid #787716;
+}
+
+.sabor2 img {
+	width: 70%;
+	height: 100%;
 }
 
 .detalhes-pizza {
-	background-color: blue;
 	width: 40%;
 	height:500px;
 	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .detalhes-pizza div {
@@ -596,7 +668,21 @@ footer .wrapper:after {
 	padding:30px;
 }
 
-
+.molde {
+	margin: 40px 0px 20px 0px ;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 200%);
+    background-repeat: no-repeat, repeat;
+	border-radius: 30px;
+	border: 2px solid #787716;
+}
+.molde2 {
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 200%);
+    background-repeat: no-repeat, repeat;
+	border-radius: 30px;
+	border: 2px solid #787716;
+}
 
 .promocao5 {
 	border: 1px solid #787716;
@@ -611,7 +697,6 @@ footer .wrapper:after {
 }
 
 .preco {
-	background-color: orange;
 	width: 100%;
 	height:70px;
 	padding-top:0.7%;
@@ -633,32 +718,34 @@ footer .wrapper:after {
 	margin-left:10%;
 }
 
-.pedido {
-	height:100%;
-	width:100%;
-}
+
 
 .bebida {
-	background-color:gray;
 	width:100%;
-	height: 500px;
-	padding-top:5%;
+	height: 450px;
+
 }
 
 .bebidas {
-	background-color:white;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 500%);
+    background-repeat: no-repeat, repeat;
 	width:50%;
 	height: 90%;
 	padding-top:10px;
 	border-radius: 15px;
+	border: 2px solid #787716;
 }
 
 .promocao7 {
-
+	
 	border: 2px solid #787716;
 	width: 20%;
 	height:40px;
 	border-radius: 15px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 200%);
+    background-repeat: no-repeat, repeat;
 }
 
 .promocao7 h4 {
@@ -674,23 +761,22 @@ footer .wrapper:after {
 }
 
 .promocao8 {
-	background-color: black;
-	width: 33%;
+	width: 50%;
 	height:50px;
 	float:left;
+	padding-left: 1%;
 }
 
 .select-css2 {
     display: block;
     font-size: 16px;
-    font-family: sans-serif;
     font-weight: 700;
-    color: #444;
+    color: black;
     line-height: 1.3;
     float: left;
     padding: 0.9%;
-    width: 200%;
-    max-width: 100%; /* useful when width is set to anything other than 100% */
+    width: 150%;
+    max-width: 150%; /* useful when width is set to anything other than 100% */
     box-sizing: border-box;
     margin-top: 7px;
     margin-left: 12%;
@@ -700,18 +786,19 @@ footer .wrapper:after {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background-color: #fff;
+ 
     /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
         for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
         
     */
     background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
-      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+      linear-gradient(to bottom, #f1d300 70%, white 130%);
     background-repeat: no-repeat, repeat;
     /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
     background-position: right .7em top 50%, 0 0;
     /* icon size, then gradient */
     background-size: .65em auto, 100%;
+    height: 70%;
 }
 /* Hide arrow icon in IE browsers */
 .select-css2::-ms-expand {
@@ -729,4 +816,178 @@ footer .wrapper:after {
     box-shadow: 0 0 0 3px -moz-mac-focusring;
     color: #222; 
     outline: none;
+}
+
+.promocao9 {
+	
+	width: 50%;
+	height:50px;
+	float:left;
+	
+	padding-top: 9px;
+}
+
+.preco3 {
+
+	border: 1px solid #787716;
+	width: 40%;
+	height:65%;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	 background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20002Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #f1d300 70%, white 130%);
+    background-repeat: no-repeat, repeat;
+	border-radius: .5em;
+	color: black;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+	
+}
+
+.compra {
+	width: 50%;
+	height:85%;
+	padding-bottom: 10px;
+	float: right;
+	padding-left: 20px;
+}
+.comprar {
+	width: 30%;
+	height:30px;
+}
+
+.preco3 h4 {
+	margin-top: 5px;
+	font-size: 80%;
+	float:left;
+	margin-left:10%;
+	margin-bottom: 10px;
+}
+
+.rolagem {
+	overflow: auto;
+	width: 100%; 
+	height: 250px; 
+	border:solid 1px;
+	background-color: white;
+	color: black;
+	border-radius: 15px;	
+}
+
+.rolagem2 {
+	width: 100%;
+}
+
+.tabela5 {
+	width: 10%;
+}
+.tabela6 {
+	width: 40%;
+}
+.tabela7 {
+	width: 30%;
+	margin-left: 50px;
+}
+.tabela8 {
+	width: 20%;
+	margin-left: 50px;
+}
+
+.total7 {
+	width: 100%;
+	height: 200px;
+}
+
+.total-pagar {
+	text-align: center;
+	width: 100%;
+	height: 45px;
+	font-size: 15px;
+	color: ;
+	padding-right: 5px;
+}
+
+.total-pagar h1{
+	font-size: 35px;
+	color: black;
+	
+}
+
+.total-conta {
+
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 150%);
+    background-repeat: no-repeat, repeat;
+	border: 3px solid #787716;
+	width: 11%;
+	height:35px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.total-conta h4 {	
+	font-size: 150%;
+	float:left;
+	margin-left:10%;
+	text-align: center;
+}
+
+.preco-conta {
+	width: 100%;
+	height:35px;
+
+	padding-left:0.9%;
+}
+
+.preco-conta2	 {
+
+	width: 100%;
+	height:55px;
+
+	padding-left:0.9%;
+}
+
+.total-pagar2 {
+	text-align: center;
+	width: 100%;
+	height: 65px;
+	color: ;
+}
+
+.total-conta2 {
+
+	border: 3px solid #787716;
+	width: 11%;
+	height:38px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.compra-conta {
+	width: 15%;
+	height:85%;
+}
+
+.comprar-conta {
+	width: 100%;
+	height:30px;
+	padding-bottom: 30px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, green 70%, white 170%);
+    background-repeat: no-repeat, repeat;
+}
+
+.comprar-conta p{
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.comprar-conta button{
+	padding-bottom: 20px;
 }

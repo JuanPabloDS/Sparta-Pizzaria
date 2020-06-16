@@ -1,68 +1,44 @@
-		
-	<footer>
-			<div class="menu-fixo">
-					<div class=" margin-left ">
-							<table >
-								<tr> 
-									<td class="">
-										<li class="quebra-linha separa">
-											<a class="quebraLinha" href="#">Quem somos</a>
-										</li>
-									</td> 
-									<td class="">
-										<li class="quebra-linha separa">
-											<a class="quebraLinha" href="#">Entre em contato</a>
-										</li>
-									</td>
-									<td class="">
-										<li class="quebra-linha separa">
-
-						            <img class="logo" src="assets\img\logo.png" class="logo" alt="Logo" title="Logo Sparta Pizzaria">
-
-						            	</li>
-									</td>
-						        
-									<td class="">
-										<li class="quebra-linha separa">
-											<a class="quebraLinha" href="#">Horário de atendimento</a>
-										</li>
-									</td> 
-									<td class="">
-										<li class="quebra-linha separa">
-											<a class="quebraLinha" href="#">Termos de uso</a>
-										</li>
-									</td>
-								</tr>
-							</table>
+		<div class="linha">
+    	</div>
+			<div class="fotter-classe">
+				<div class="icone-footer">
+					<div class="icone-tamanho">
+                			<a class="icone-tamanho2"  href="index.php"><i class=" icone-tamanho4 fab fa-facebook-square"></i></a>
 					</div>
-				<div class="tamanho-div">
-					
-						<a href="https:\\www.facebook.com" class="icone2">
-							<img class="logo2" src="assets\img\icone\Facebook.png">
-						</a>
-						<br>
-						<a href="https:\\www.instagram.com" >
-							<img class="logo2" src="assets\img\icone\Instagram.png">
-						</a>
+					<div class="icone-tamanho">
+                			<a class="icone-tamanho2 "  href="index.php"><i class="icone-tamanho4 fab fa-instagram"></i></i></a>
+					</div>
 				</div>
+				<div class="footer-meio">
+					<div class="meio container">
+						<div class="meio-cont">
+							<form class="forma">
+								<a class="" href="#">Quem somos</a>
+							</form>
+						</div>
+						<div class="meio-cont">
+							<form class="forma1">
+								<a class="" href="#">Entre em contato</a>
+							</form>
+						</div>
+						<div class="meio-cont">
+							<form class="forma3">
+								<a class="" href="#">Horário de atendimento</a>
+							</form>
+						</div>
+						<div class="meio-cont">
+							<form class="forma4">
+								<a class="" href="#">Termos de uso</a>
+							</form>
+						</div>
+
+					</div>
+
+				</div>
+					
 			
 			
 			</div>
-		</footer>
-
-
-
-
-
-
-			<!-- <a href="https\\:www.facebook.com">
-				<img class="" src="assets\img\icone\Facebook.png">
-			</a>
-			<a href="https\\:www.instagram.com">
-				<img class="" src="assets\img\icone\Instagram.png">
-			</a> -->
-
-
 
 
 
