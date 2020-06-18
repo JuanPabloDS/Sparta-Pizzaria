@@ -1,10 +1,10 @@
 <?php
-class Usuario
+
+class Bebida
 {
 	private $id;
 	private $nome;
-	private $senha;
-	private $email;
+	private $preco;
 
     /**
      * @return mixed
@@ -25,7 +25,6 @@ class Usuario
 
         return $this;
     }
-
     /**
      * @return mixed
      */
@@ -45,44 +44,32 @@ class Usuario
 
         return $this;
     }
-
-    /**
+     /**
      * @return mixed
      */
-    public function getSenha()
+    public function getPreco()
     {
-        return $this->senha;
+        return number_format($this->preco, 2, ',','.');
+    }
+    public function getPrecoBD()
+    {
+        return $this->preco;
     }
 
     /**
-     * @param mixed $senha
+     * @param mixed $preco
      *
      * @return self
      */
-    public function setSenha($senha)
-    {
-        $this->senha = md5($senha);
+    public function setPreco($preco)
+    {	
+    	$preco = str_replace('.', '', $preco);
+        $preco = str_replace(',', '.', $preco);
+        $this->preco = $preco;
+
 
         return $this;
     }
-
-    /**
-     * @return mixed
-     */
-    public function getEmail()
-    {
-        return $this->email;
-    }
-
-    /**
-     * @param mixed $email
-     *
-     * @return self
-     */
-    public function setEmail($email)
-    {
-        $this->email = $email;
-
-        return $this;
-    }
+   
+    
 }

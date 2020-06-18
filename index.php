@@ -45,54 +45,43 @@ $pizzas = $pizzaDAO->listarDemonstrativo();
 					</div>
 				</div>
 			</div>
+				<div class="menu-index">
+					<div class="menu-separa">
+						<a href="cardapio.php">
+						<button class="button button1">
+							<i class="fas fa-book-open"></i>
+							<p style="font-size: 20px">CARDÁPIO </p>
+						</button>
+						</a>
+					</div>
+					<div class="menu-separa">
+						<a href="rodizio.php">
+						<button class="button button2">
+							<i class='fas fa-pizza-slice'></i>
+							<p style="font-size: 20px">RODIZIO</p>
+						</button>
+						</a>
+					</div>
+					<div class="menu-separa">
+						<a href="delivery.php">
+						<button class="button button3">
+							<i class="fas fa-truck"></i>
+							<p style="font-size: 20px">DELIVERY</p>
+						</button>
+						</a>
+					</div>
+					<div class="menu-separa">
+						<a href="reserva.php">
+						<button class="button button5">
+							<i class="far fa-calendar-alt"></i>
+							<p style="font-size: 20px">RESERVA</p>
+						</button>
+						</a>
+					</div>
+				
 			<div class="menuCor">
-				<div>
-				<table class="menu2">
-				  <thead>
-				    <tr>
-				      <th class="menu3" scope="col">
-				      	<a href="cardapio.php">
-				      	<div class="borda2">
-				      	<font color="black">
-				      		<img class=" imagem " src="assets\img\cardapio.jpg">
-				      		<br><br>CARDÁPIO</font> 
-				      	</div>
-				      	</a> 
-				      </th>
-				      <th class="menu3" scope="col">
-				      	<a href="cardapio.php">
-					      	<div class="borda2">
-					      		<font color="black">
-					      			<img class=" imagem " src="assets\img\rodizio.jpg">
-					      			<br><br>RODIZIO 
-					      		</font> 
-					      	</div>
-				      	</a>
-				      </th> 
-				      </th>
-				      <th class="menu3" scope="col">
-				      	<a href="cardapio.php">
-				      		<div class="borda2">
-					      		<font color="black">
-					      			<img class=" imagem " src="assets\img\delivery.jpg"><br><br>DELIVERY
-					      		</font> 
-				      		</div>
-				      	</a>
-				      </th>
-				      <th class="menu3" scope="col">
-				      	<a href="cardapio.php">
-				      		<div class="borda2">
-					      		<font color="black">
-					      			<img class=" imagem " src="assets\img\novidades.jpg"><br><br>NOVIDADES
-					      		</font> 
-				      		</div>
-				      	</a>
-				      </th>
-				    </tr>
-				  </thead>
-				</table>
 			</div>
-			<br><br>
+			<div class="texto-in">
 			<div class="promocao ">
 				<table class="table table-bordered">
 				  <thead>
@@ -110,11 +99,12 @@ $pizzas = $pizzaDAO->listarDemonstrativo();
 				  </thead>
 				</table>
 			</div>
+			</div>
 			<br><br>
 				<div class="medidas">
 					<div class="">
 						<div class="container promocao10">
-							<h4 align="center"><b>PROMOÇOES</b></h4>
+							<h4 align="center"><b>ALGUMAS OPÇÕES</b></h4>
 						</div>
 					</div>
 				</div>
@@ -123,11 +113,13 @@ $pizzas = $pizzaDAO->listarDemonstrativo();
 
 					<?php foreach($pizzas as $pizza){ ?>
   					<div class=" pizza ">
+  						<a href="pedido.php" style="text-decoration:none;">
 						<form class="forma-pizza">
 						    <img class="imagem2" src="<?= $pizza->getImagem() ?>">
 						      	<h3 class="pizzatexto"><?= $pizza->getSabor() ?></h3>
 						      	<h5 class="pizzatexto"><?= $pizza->getDescricao() ?></h5>
 						</form>
+						</a>
 					</div>
 					<?php } ?>
 					

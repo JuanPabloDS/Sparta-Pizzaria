@@ -66,7 +66,7 @@ text-align: center;
 .menuCor {
 	background-color: white;
 	width:100%;
-	height:500px;
+	height:200px;
 
 }
 .logar{
@@ -96,7 +96,7 @@ text-align: center;
 
 .menu3 {
 	width: 70px;
-	height: 70px;
+	height: 40px;
 	margin-bottom: 40px;
 	
 }
@@ -108,18 +108,27 @@ text-align: center;
 	color:#ebd1a4;
 
 }
+.texto-in {
+	width: 100%;
+	height:250px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
 .promocao {
 	width: 100%;
-	height:230px;
+	height:250px;
 	padding-top: 2%;
 	padding-right: 2%;
-	border-bottom: 1px solid #dee2e6;
-	color:black;
+	border-top: 3px solid #787716;
+	border-bottom: 3px solid #787716;
+	color:white;
 	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
-      linear-gradient(to bottom, white 70%, black 400%);
+      linear-gradient(to bottom, black 70%, white 200%);
     background-repeat: no-repeat, repeat;
 	font-weight: bold;
 	border-radius: 10px;
+	font-size: 30px;	
 }
 
 .user-img-menu {
@@ -135,11 +144,14 @@ text-align: center;
 .borda2 {
 	width: 100%;
 	height: 100%;
-	border-right: 3px solid #dee2e6;
+	border-right: 3px solid black;
 	color:#ebd1a4;
 	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
-      linear-gradient(to bottom, white 70%, black 400%);
+      linear-gradient(to bottom, white 70%, white 300%);
     background-repeat: no-repeat, repeat;
+    border: 3px solid #787716;
+	border-radius: 10px;
+	padding-bottom: 15px;
 
 }
 
@@ -207,6 +219,23 @@ text-align: center;
 
 }
 
+.selecione {
+
+	width: 70%;
+	height: 15%;
+	border: 1px solid #787716;
+	color:#ebd1a4;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 300%);
+    background-repeat: no-repeat, repeat;
+	border: 3px solid #787716;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+
+}
+
 .reserva {
 	width: 200px;
 	height: 25px;
@@ -232,7 +261,7 @@ text-align: center;
 	width: 100%;
 	height: 600px;
 	margin-top: 0px;
-	padding-bottom: 80px;
+	padding-bottom: 10px;
 
 
 }
@@ -241,9 +270,8 @@ text-align: center;
 	 color: black;
 }
 .imagem {
-	width: 150px;
-	height: 130px;
-	padding-top: 30px;
+	width: 50px;
+	height: 50px;
 
 
 }
@@ -325,10 +353,11 @@ text-align: center;
 
 .pizza {
 	width: 33%;
-	height: 33%;	
+	height: 25%;	
 	float: left;
 	padding-left: 50px;
 	font-size:15px;
+	text-decoration:none;
 
 	
 }
@@ -355,7 +384,7 @@ text-align: center;
 
 .meio-index {
 	width:100%;
-	height:1000px;
+	height:1400px;
 	padding-bottom: 50px;
 }
 
@@ -371,13 +400,104 @@ text-align: center;
 	border: 1px solid #787716;
 	color:#ebd1a4;
 	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
-      linear-gradient(to bottom, black 70%, white 150%);
+      linear-gradient(to bottom, black 70%, white 300%);
     background-repeat: no-repeat, repeat;
 	border: 3px solid #787716;
 	border-radius: 10px;
 	padding-top: 30px;
+	padding-right: 10px;
 }
 
+.menu-index {
+	width:100%;
+	height:130px;
+	background-color: black;
+}
+
+.menu-separa {
+	width: 25%;
+	height:130px;
+	background-color: blue;
+	float: left;
+}
+
+.button {
+	width: 100%;
+	height:100%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.button i{
+	margin-bottom: 15px;
+	
+}
+
+.button1 {
+  background-color: white; 
+  color: #465110; 
+  border-top: 15px solid #465110;
+  border-bottom: 3px solid;
+}
+
+.button1:hover {
+  background-color: #465110;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: #dfbb3b; 
+  border-top: 15px solid #dfbb3b;
+  border-bottom: 3px solid;
+}
+
+.button2:hover {
+  background-color: #dfbb3b;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: #f44336;
+  border-top: 15px solid #f44336;
+  border-bottom: 3px solid;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border-top: 15px solid #e7e7e7;
+  border-bottom: 3px solid;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border-top: 15px solid black;
+  border-bottom: 3px solid;
+}
+
+.button5:hover {
+  background-color: black;
+  color: white;
+}
 
 /*footer
 */
@@ -598,6 +718,15 @@ text-align: center;
 
 
 }
+
+#ddlCars {
+    min-height:190px; 
+    overflow-y :auto; 
+    overflow-x:hidden; 
+    position:absolute;
+    width:300px;
+    display: contents;
+ }
 
 .promocao4 {
 	width: 60%;

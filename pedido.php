@@ -4,9 +4,15 @@
 
 require 'classes/Pizza.php';
 require 'classes/PizzaDAO.php';
+require 'classes/Bebida.php';
+require 'classes/BebidaDAO.php';
 
 $pizzaDAO = new PizzaDAO();
-$pizzas = $pizzaDAO->listarDemonstrativo();
+$pizzas = $pizzaDAO->listar();
+
+$bebidaDAO = new BebidaDAO();
+$bebidas = $bebidaDAO->listar();
+
 
 ?>
 <?php 
@@ -29,21 +35,24 @@ $pizzas = $pizzaDAO->listarDemonstrativo();
 				<div class=" promocao4">
 					<div class="segundo">
 						<div include="div-select">
-							<select class="select-css selectpicker">
+							<form action='processa.php' method='POST'>
+							<select id="pizzasp" name="pizzasp" class="select-css">
 							    <option>Escolha sua primeira metade</option>
 							    <?php foreach($pizzas as $pizza){ ?>
 							    <option><?= $pizza->getSabor() ?></option>
 							    <?php } ?>
 							    
 							</select>
+							</form>
 							</div>
 					</div>
 					<div class="segundo">
 						<div include="div-select" class="select-css1">
 							<select class="select-css ">
 							    <option>Escolha sua primeira metade</option>
-							    <option>Calabresa</option>
-							    <option>Frango</option>
+							    <?php foreach($pizzas as $pizza){ ?>
+							    <option><?= $pizza->getSabor() ?></option>
+							    <?php } ?>
 							</select>
 							</div>
 					</div>
@@ -61,7 +70,7 @@ $pizzas = $pizzaDAO->listarDemonstrativo();
 
 			<div class="detalhes-pizza">
 				<div class="molde">
-					<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et, Vivamus justo ligula, aliquam quis commodo et,ipsum </h5>
+					<h5 class="pizzatexto"><?php echo "$cliente" ?></h5>
 				</div>
 				<div class="molde2">
 					<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum Vivamus justo ligula, aliquam quis commodo et,ipsum  </h5>
@@ -85,12 +94,11 @@ $pizzas = $pizzaDAO->listarDemonstrativo();
 				<div class=" promocao8">
 					<div class="terceiro">
 						<div include="div-select">
-							<select class="select-css2 ">
+							<select class="select-css2">
 							    <option>Escolha sua bebida</option>
-							    <option>Cola-cola 500 ml</option>
-							    <option>Cola-cola 1 lt</option>
-							    <option>Cola-cola 2 lt</option>
-							    <option>Cola-cola 3 lt</option>
+							    <?php foreach($bebidas as $bebida){ ?>
+							    <option><?= $bebida->getNome() ?></option>
+							    <?php } ?>
 							</select>
 						</div>
 					</div>
@@ -114,18 +122,16 @@ $pizzas = $pizzaDAO->listarDemonstrativo();
 				            </tr>
 				        </thead>
 				        <tbody>
-				        	<?php
-								for ($x = 0; $x <= 8; $x++) {
-			  					echo '<tr>
+				        	<?php foreach($bebidas as $bebida){ ?>
+				        	<tr>
 				                <td>1</td>
-				                <td>Cola-cola 1 lt</td>
-				                <td>R$ 99,99</td>	
+				                <td><?= $bebida->getNome() ?></td>
+				                <td><?= $bebida->getPreco() ?></td>	
 				                <td>
 				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
 				                </td>
-
-				            </tr>';
-								}?>               
+				            </tr>
+				            <?php } ?>
 				        </tbody>
 				    </table>
 				</div>

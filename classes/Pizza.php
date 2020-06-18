@@ -7,6 +7,7 @@ class Pizza
 	private $preco;
 	private $imagem;
 	private $descricao;
+    private $categoria;
 
     /**
      * @return mixed
@@ -107,6 +108,25 @@ class Pizza
     public function setDescricao($descricao)
     {
         $this->descricao = $descricao;
+
+        return $this;
+    }
+    /**
+     * @return mixed
+     */
+    public function getCategoria()
+    {
+        return $this->categoria;
+    }
+
+    /**
+     * @param mixed $categoria
+     *
+     * @return self
+     */
+    public function setCategoria($categoria)
+    {
+        $this->categoria = $categoria;
 
         return $this;
     }

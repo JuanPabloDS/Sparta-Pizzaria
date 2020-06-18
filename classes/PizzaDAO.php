@@ -27,10 +27,27 @@ class PizzaDAO extends Model
     }
     public function listarDemonstrativo()
     {
-    	$sql = "SELECT * FROM {$this->tabela} limit 9";
+    	$sql = "SELECT * FROM {$this->tabela} limit 12";
     	$stmt = $this->db->prepare($sql);
     	$stmt->setFetchMode(PDO::FETCH_CLASS, $this->class);
     	$stmt->execute();
     	return $stmt->fetchAll();
+    }
+
+    public function listarSalgada()
+    {
+        $sql = "SELECT * FROM {$this->tabela} where categoria=1";
+        $stmt = $this->db->prepare($sql);
+        $stmt->setFetchMode(PDO::FETCH_CLASS, $this->class);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+    public function listarDoce()
+    {
+        $sql = "SELECT * FROM {$this->tabela} where categoria=0 ";
+        $stmt = $this->db->prepare($sql);
+        $stmt->setFetchMode(PDO::FETCH_CLASS, $this->class);
+        $stmt->execute();
+        return $stmt->fetchAll();
     }
 }
