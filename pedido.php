@@ -1,5 +1,20 @@
 <?php include './layout/header.php'; ?>
 <?php include './layout/menu.php'; ?>
+<?php
+
+require 'classes/Pizza.php';
+require 'classes/PizzaDAO.php';
+
+$pizzaDAO = new PizzaDAO();
+$pizzas = $pizzaDAO->listarDemonstrativo();
+
+?>
+<?php 
+	if(isset($_GET['msg']) && $_GET['msg'] != '') {
+	 echo '<div class="alert alert-info">'.$_GET['msg'].'</div>';
+	}
+?>
+
 
 	<div class="pedido">
 		<div class="medidas">
@@ -14,17 +29,19 @@
 				<div class=" promocao4">
 					<div class="segundo">
 						<div include="div-select">
-							<select class="select-css">
-							    <option>METADE</option>
-							    <option>Calabresa</option>
-							    <option>Frango</option>
+							<select class="select-css selectpicker">
+							    <option>Escolha sua primeira metade</option>
+							    <?php foreach($pizzas as $pizza){ ?>
+							    <option><?= $pizza->getSabor() ?></option>
+							    <?php } ?>
+							    
 							</select>
 							</div>
 					</div>
 					<div class="segundo">
 						<div include="div-select" class="select-css1">
 							<select class="select-css ">
-							    <option>METADE</option>
+							    <option>Escolha sua primeira metade</option>
 							    <option>Calabresa</option>
 							    <option>Frango</option>
 							</select>
@@ -35,11 +52,11 @@
 		</div>
 		<div class="metade">
 			<div class="sabor">
-				<img src="assets\img\pizzas/calabresa2.png">
+				<img src="assets\img\pizzas\calabresa2.png">
 
 			</div>
 			<div class="sabor2">
-				<img src="assets\img\pizzas/calabresa1.png">
+				<img src="assets\img\pizzas\calabresa1.png">
 			</div>
 
 			<div class="detalhes-pizza">
@@ -97,7 +114,9 @@
 				            </tr>
 				        </thead>
 				        <tbody>
-				            <tr>
+				        	<?php
+								for ($x = 0; $x <= 8; $x++) {
+			  					echo '<tr>
 				                <td>1</td>
 				                <td>Cola-cola 1 lt</td>
 				                <td>R$ 99,99</td>	
@@ -105,71 +124,8 @@
 				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
 				                </td>
 
-				            </tr>
-				            <tr>
-				                <td>2</td>
-				                <td>Cola-cola 1 lt</td>
-				                <td>R$ 99,99</td>
-				                <td>
-				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
-				                </td>
-				            </tr>
-				            <tr>
-				                <td>3</td>
-				                <td>Cola-cola 1 lt</td>
-				                <td>R$ 99,99</td>
-				                <td>
-				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
-				                </td>
-				            </tr>
-				            <tr>
-				                <td>4</td>
-				                <td>Cola-cola 1 lt</td>
-				                <td>R$ 99,99</td>
-				                <td>
-				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
-				                </td>
-				            </tr>
-				            <tr>
-				                <td>5</td>
-				                <td>Cola-cola 1 lt</td>
-				                <td>R$ 99,99</td>
-				                <td>
-				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
-				                </td>
-				            </tr>
-				            <tr>
-				                <td>6</td>
-				                <td>Cola-cola 1 lt</td>
-				                <td>R$ 99,99</td>
-				                <td>
-				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
-				                </td>
-				            </tr>
-				            <tr>
-				                <td>7</td>
-				                <td>Cola-cola 1 lt</td>
-				                <td>R$ 99,99</td>
-				                <td>
-				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
-				                </td>
-				            </tr>
-				            <tr>
-				                <td>8</td>
-				                <td>Cola-cola 1 lt</td>
-				                <td>R$ 99,99</td>
-				                <td>
-				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
-				                </td>
-				            </tr>
-				            <tr>
-				                <td>9</td>
-				                <td>Cola-cola 1 lt</td>
-				                <td>R$ 99,99</td>
-				                <td>
-				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
-				                </td>
-				            </tr>                
+				            </tr>';
+								}?>               
 				        </tbody>
 				    </table>
 				</div>
@@ -188,7 +144,9 @@
 			<div class="preco-conta2">
 				
 					<div class="compra-conta container">
-						<button type="button" class="btn btn-success comprar-conta"><p>COMPRAR<p></i></button>
+						<a href="carrinho.php">
+						<button type="button" class="btn btn-success comprar-conta"><p>CARRINHO<p></i></button>
+						</a>
 					</div>
 			</div>
 

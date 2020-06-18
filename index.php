@@ -1,5 +1,19 @@
 <?php include './layout/header.php'; ?>
 <?php include './layout/menu.php'; ?>
+<?php 
+
+require 'classes/Pizza.php';
+require 'classes/PizzaDAO.php';
+
+$pizzaDAO = new PizzaDAO();
+$pizzas = $pizzaDAO->listarDemonstrativo();
+
+?>
+<?php 
+	if(isset($_GET['msg']) && $_GET['msg'] != '') {
+	 echo '<div class="alert alert-info">'.$_GET['msg'].'</div>';
+	}
+?>
 
 			<div class="slide">
 				<div id="carouselExampleControls" class="carousel slide absoluto" data-ride="carousel">
@@ -106,16 +120,16 @@
 				</div>
 			<div class="meio-index">
 				<div class="meio-index2">
-					<?php
-					for ($x = 0; $x <= 8; $x++) {
-  					echo '<div class=" pizza ">
+
+					<?php foreach($pizzas as $pizza){ ?>
+  					<div class=" pizza ">
 						<form class="forma-pizza">
-						    <img class="imagem2" src="assets\img\basca.png">
-						      	<h3 class="pizzatexto">BASCA</h3>
-						      	<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum</h5>
+						    <img class="imagem2" src="<?= $pizza->getImagem() ?>">
+						      	<h3 class="pizzatexto"><?= $pizza->getSabor() ?></h3>
+						      	<h5 class="pizzatexto"><?= $pizza->getDescricao() ?></h5>
 						</form>
-					</div>';
-					}?>
+					</div>
+					<?php } ?>
 					
 
 
