@@ -62,14 +62,17 @@ class Bebida
      * @return self
      */
     public function setPreco($preco)
-    {	
-    	$preco = str_replace('.', '', $preco);
+    {   
+        $preco = str_replace('.', '', $preco);
         $preco = str_replace(',', '.', $preco);
         $this->preco = $preco;
 
 
         return $this;
     }
+    /**
+     * @return mixed
+     */
    
     
 }

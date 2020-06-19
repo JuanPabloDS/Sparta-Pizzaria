@@ -23,14 +23,21 @@ $pizzasDoce = $pizzaDAO->listarDoce();
   <div class="container">
     <div class="price-listing position-relative p-5">
       <div class="row ">
-        <?php foreach($pizzasSalgada as $pizza){ ?>
+
+        <?php 
+        $n = 1;
+
+        foreach($pizzasSalgada as $pizza){ 
+
+          ?>
         <div class="col-lg-6">
           <div class="listing d-inline-block">
             <ul>
               <form action='cardapio_pedido.php' method='POST'>
               <li>
-                <a href="pedido.php">
+                <a href="pedido.php?pizza=<?= $pizza->getId() ?>">
                 <span style="font-size: 18px; color: #D51B1E;">
+                  <?= $n ?> - 
                   <?= $pizza->getSabor() ?>
                 </span>
                 </a>
@@ -43,7 +50,9 @@ $pizzasDoce = $pizzaDAO->listarDoce();
               </form>
           </div>
         </div>
-        <?php } ?>  
+        <?php
+          $n++;
+         } ?>  
       </div>
     </div>
   </div>
@@ -56,15 +65,20 @@ $pizzasDoce = $pizzaDAO->listarDoce();
   <div class="container">
     <div class="price-listing position-relative p-5">
       <div class="row ">
-        <?php foreach($pizzasDoce as $pizza){ ?>
+        <?php 
+         $n = 1;
+        foreach($pizzasDoce as $pizza){ ?>
         <div class="col-lg-6">
           <div class="listing d-inline-block">
             <ul>
               <li><span style="font-size: 18px; color: #D51B1E;">
+                <?= $n ?> -  
                 <?= $pizza->getSabor() ?></span><h6><?= $pizza->getDescricao() ?></h6> <span class="float-right">  </span></li>
           </div>
         </div>
-        <?php } ?>
+        <?php 
+        $n++;
+      } ?>
        
       </div>
     </div>

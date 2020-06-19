@@ -1,29 +1,17 @@
 <?php include './layout/header.php'; ?>
 <?php include './layout/menu.php'; ?>
-<?php 
 
-require 'classes/Pizza.php';
-require 'classes/PizzaDAO.php';
 
-$pizzaDAO = new PizzaDAO();
-$pizzas = $pizzaDAO->listarDemonstrativo();
-
-?>
-<?php 
-	if(isset($_GET['msg']) && $_GET['msg'] != '') {
-	 echo '<div class="alert alert-info">'.$_GET['msg'].'</div>';
-	}
-?>
-<div style="width: 100%; height: 700px; background-color: black ">
+<div style="width: 100%; height: 750px; background-color: white ">
 	<form>
-<div class="medidas" style="color: #787716">
+<div class="medidas" style="color: #787716; margin: 0px; " >
 			<div class="">
-				<div class="container promocao3">
+				<div class="container promocao3" >
 					<h4 align="center"><b>FAÇA SEU PEDIDO</b></h4>
 				</div>
 			</div>
 		</div>
-<div class="container-xl p-3 my-3 text-white">
+<div class="container-xl p-3 my-3 text-white" style=" background-color: black; border-radius: 15px; ">
   <div class="form-group">
       <label for="inputNome">Nome</label>
       <input type="nome" class="form-control" id="inputNome" placeholder="Nome">

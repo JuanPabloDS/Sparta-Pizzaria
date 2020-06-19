@@ -33,8 +33,31 @@ if($acao == 'deletar') {
 	$pizza->setImagem($_POST['imagem']);
 	$pizza->setDescricao($_POST['descricao']);
 
-	$produtoDAO->alteraProduto($produto);
-	$msg = 'Produto alterado com sucesso';
+	$pizzaDAO->alteraPizza($pizza);
+	$msg = 'Pizza alterado com sucesso';
+	
+}
+
+ else if($acao == 'buscarPizza') {
+
+	$pizza = $pizzaDAO->get($id);
+	echo $pizza->getImagem();
+	exit;
+	
+}
+
+else if($acao == 'buscarDescricao') {
+
+	$pizza = $pizzaDAO->get($id);
+	echo $pizza->getDescricao();
+	exit;
+	
+}
+else if($acao == 'buscarPreco') {
+
+	$pizza = $pizzaDAO->get($id);
+	echo $pizza->getPreco();
+	exit;
 	
 }
 

@@ -35,23 +35,21 @@ $bebidas = $bebidaDAO->listar();
 				<div class=" promocao4">
 					<div class="segundo">
 						<div include="div-select">
-							<form action='processa.php' method='POST'>
-							<select id="pizzasp" name="pizzasp" class="select-css">
+							<select class="select-css" onchange="(alteraMetade(this.value), alteraDescricao(this.value), alteraPreco(this.value));">
 							    <option>Escolha sua primeira metade</option>
 							    <?php foreach($pizzas as $pizza){ ?>
-							    <option><?= $pizza->getSabor() ?></option>
+							    <option value="<?= $pizza->getId() ?>"><?= $pizza->getSabor() ?></option>
 							    <?php } ?>
 							    
 							</select>
-							</form>
 							</div>
 					</div>
 					<div class="segundo">
 						<div include="div-select" class="select-css1">
-							<select class="select-css ">
-							    <option>Escolha sua primeira metade</option>
+							<select class="select-css " onchange="(alteraMetade2(this.value), alteraDescricao2(this.value), alteraPreco(this.value));">
+							    <option>Escolha sua segunda metade</option>
 							    <?php foreach($pizzas as $pizza){ ?>
-							    <option><?= $pizza->getSabor() ?></option>
+							    <option value="<?= $pizza->getId() ?>"><?= $pizza->getSabor() ?></option>
 							    <?php } ?>
 							</select>
 							</div>
@@ -60,27 +58,29 @@ $bebidas = $bebidaDAO->listar();
 			</div>
 		</div>
 		<div class="metade">
-			<div class="sabor">
-				<img src="assets\img\pizzas\calabresa2.png">
+			<div id="sabor1" class="sabor">
+				<img src="assets\img\pizzas\capa.png" style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);right: -50%;position: relative;">
 
 			</div>
-			<div class="sabor2">
-				<img src="assets\img\pizzas\calabresa1.png">
+			<div id="sabor2" class="sabor2">
+				<img src="assets\img\pizzas\capa.png" style="clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);left: -50%;position: relative;">
 			</div>
 
 			<div class="detalhes-pizza">
 				<div class="molde">
-					<h5 class="pizzatexto"><?php echo "$cliente" ?></h5>
+					<h2>Primeira metade</h2>
+					<span id="descricao1"><h5 class="pizzatexto">Os melhores sabores de pizza você encontra aqui!</h5></span>
 				</div>
 				<div class="molde2">
-					<h5 class="pizzatexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo ligula, aliquam quis commodo et,ipsum Vivamus justo ligula, aliquam quis commodo et,ipsum  </h5>
+					<h2>Segunda metade</h2>
+					<span id="descricao2"><h5 class="pizzatexto">Faça sua escolha.</h5></span>
 				</div>
 			</div>
 		</div>
 		<div class="preco">
 			<div class="preco-conta">
-				<div class="total-conta">
-					<h4 align="center"><b>R$ 99,99</b></h4>
+				<div class="total-conta" id="preco">
+					<h4 align="center"><b>R$ 00,00</b></h4>
 				</div>
 			</div>
 		</div>
@@ -94,10 +94,10 @@ $bebidas = $bebidaDAO->listar();
 				<div class=" promocao8">
 					<div class="terceiro">
 						<div include="div-select">
-							<select class="select-css2">
+							<select class="select-css2" onchange="alterabebidaPreco(this.value)"  >
 							    <option>Escolha sua bebida</option>
 							    <?php foreach($bebidas as $bebida){ ?>
-							    <option><?= $bebida->getNome() ?></option>
+							    <option value="<?= $bebida->getId() ?>"><?= $bebida->getNome() ?></option>
 							    <?php } ?>
 							</select>
 						</div>
@@ -107,8 +107,8 @@ $bebidas = $bebidaDAO->listar();
 					<div class="compra">
 						<button type="button" class="btn btn-success comprar"><i class="fas fa-shopping-cart"></i></button>
 					</div>
-					<div class="preco3">
-						<h4 align="center"><b>R$ 99,99</b></h4>
+					<div class="preco3" id="bebidaPreco">
+						<h4 align="center"><b>R$ 00,00</b></h4>
 					</div>
 				</div>
 				<div class="rolagem"> 
@@ -122,16 +122,13 @@ $bebidas = $bebidaDAO->listar();
 				            </tr>
 				        </thead>
 				        <tbody>
-				        	<?php foreach($bebidas as $bebida){ ?>
 				        	<tr>
-				                <td>1</td>
-				                <td><?= $bebida->getNome() ?></td>
-				                <td><?= $bebida->getPreco() ?></td>	
+				                <td></td>
+				                <td></td>
+				                <td></td>	
 				                <td>
-				                	<button type="button" class="btn btn-danger comprar"><i class="fas fa-trash-alt"></i></button>
 				                </td>
 				            </tr>
-				            <?php } ?>
 				        </tbody>
 				    </table>
 				</div>
