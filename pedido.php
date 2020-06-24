@@ -25,69 +25,76 @@ $bebidas = $bebidaDAO->listar();
 	<div class="pedido">
 		<div class="medidas">
 			<div class="">
-				<div class="container promocao3">
+				<div class="container ">
 					<h4 align="center"><b>FAÇA SEU PEDIDO</b></h4>
 				</div>
 			</div>
 		</div>
-		<div class="medidas2">
-			<div class="">
-				<div class=" promocao4">
-					<div class="segundo">
-						<div include="div-select">
-							<select class="select-css" onchange="(alteraMetade(this.value), alteraDescricao(this.value), alteraPreco(this.value));">
+		<div class="pizza-tamanho">
+			<div class="parte1">
+				
+			</div>
+			<div class="parte2">
+				<div class="parte2-topo">
+					<div class="metade-texto">
+						<select class="select-css" onchange="(alteraMetade(this.value), alteraDescricao(this.value), alteraPreco(this.value));">
+
 							    <option>Escolha sua primeira metade</option>
 							    <?php foreach($pizzas as $pizza){ ?>
 							    <option value="<?= $pizza->getId() ?>"><?= $pizza->getSabor() ?></option>
-							    <?php } ?>
-							    
+							    <?php } ?>    
 							</select>
-							</div>
 					</div>
-					<div class="segundo">
-						<div include="div-select" class="select-css1">
-							<select class="select-css " onchange="(alteraMetade2(this.value), alteraDescricao2(this.value), alteraPreco(this.value));">
+					<div class="metade-texto">
+						<select class="select-css select-css4 " onchange="(alteraMetade2(this.value), alteraDescricao2(this.value), alteraPreco(this.value));">
 							    <option>Escolha sua segunda metade</option>
 							    <?php foreach($pizzas as $pizza){ ?>
 							    <option value="<?= $pizza->getId() ?>"><?= $pizza->getSabor() ?></option>
 							    <?php } ?>
 							</select>
-							</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="metade">
-			<div id="sabor1" class="sabor">
-				<img src="assets\img\pizzas\capa.png" style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);right: -50%;position: relative;">
+				<div class="parte2-meio">
+					<div class="pizza-metade">
 
-			</div>
-			<div id="sabor2" class="sabor2">
-				<img src="assets\img\pizzas\capa.png" style="clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);left: -50%;position: relative;">
-			</div>
-
-			<div class="detalhes-pizza">
-				<div class="molde">
-					<h2>Primeira metade</h2>
-					<span id="descricao1"><h5 class="pizzatexto">Os melhores sabores de pizza você encontra aqui!</h5></span>
+						<div class="sabor">
+							<div class="molde">
+								<h2>Descrição:</h2>
+								<span id="descricao1"><h5 class="pizzatexto">Os melhores sabores de pizza você encontra aqui!</h5></span>
+							</div>
+							<div class="molde-classe"  id="sabor1">
+							<img src="assets\img\pizzas\capa.png" style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);right: -107%;position: relative;">
+							</div>
+						</div>
+					</div>
+					<div class="pizza-metade">
+						<div class="sabor2">
+						<div class="molde2">
+							<h2>Descrição:</h2>
+							<span id="descricao2"><h5 class="pizzatexto">Faça sua escolha.</h5></span>
+						</div>
+						<div class="molde-classe2" id="sabor2" >
+							<img src="assets\img\pizzas\capa.png" style="clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);left: -107%;position: relative;">
+						</div>
+						</div>
+					</div>
+				</div
 				</div>
-				<div class="molde2">
-					<h2>Segunda metade</h2>
-					<span id="descricao2"><h5 class="pizzatexto">Faça sua escolha.</h5></span>
-				</div>
-			</div>
-		</div>
-		<div class="preco">
-			<div class="preco-conta">
-				<div class="total-conta" id="preco">
+				<div class="preco-pizza">
+				<div class="total-conta2" id="preco">
 					<h4 align="center"><b>R$ 00,00</b></h4>
 				</div>
+				 </div>
+
+			</div>
+			<div class="parte3">
+				
 			</div>
 		</div>
 		<div class="bebida">
 			<div class="container bebidas">
 				<div class="total">
-					<div class="promocao7 container">
+					<div class=" container">
 						<h4 align="center"><b>BEBIDAS</b></h4>
 					</div>
 				</div>

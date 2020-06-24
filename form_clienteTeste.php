@@ -18,7 +18,7 @@
 ?>
 <div class="row" style="margin-top:40px">
 	<div class="col-6 offset-3">
-		<h2>Cadastrar usuario</h2>
+		<h2>Cadastro</h2>
 	</div>
 </div>
 

@@ -32,6 +32,7 @@
                 <a class="nav-link btn-outline-warning logar"  href="logar.php"><i class="far fa-user"></i></a>
               </button>
             </form>
+            <small>  <a class="btn btn-outline-warning  botao-menu" href="logout.php" onclick="return confirm('Deseja realmente sair?')">Sair</a></small>
 
             
           </div>

@@ -1,3 +1,5 @@
+<?php require_once 'includes/validacao.php'; ?>
+
 <!DOCTYPE html>
 <head lang="pt-br">
 	<meta charset=utf-8>

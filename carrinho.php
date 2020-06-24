@@ -5,7 +5,7 @@
 		<div class="carrinho_inicio">
 			<div class="medidas">
 				<div class="">
-					<div class="container promocao3">
+					<div class="container" style="padding: 20px;">
 						<h4 align="center"><b>CARRINHO</b></h4>
 					</div>
 				</div>

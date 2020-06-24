@@ -1,0 +1,1305 @@
+body{
+	background-color: #fefdf2;
+	font-family: "Avant Garde","Avantgarde","Century Gothic","CenturyGothic","AppleGothic","sans-serif";
+}
+
+.principal {
+	background-color: white;
+	
+	width: 100%;
+	padding: 0px; 		
+}
+
+.menu {
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 290%);
+    background-repeat: no-repeat, repeat;
+	color:#ebd1a4;
+	width: 100%;
+	height: 90px;
+}
+.absoluto {
+	position: absolute;
+}
+
+.menu-fixo {
+	color:#ebd1a4;
+	width: 100%;
+	height: 90px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 290%);
+    background-repeat: no-repeat, repeat;
+
+}
+	color:#ebd1a4;
+	width: 100%;
+	height: 90px;
+
+}
+
+.bt {
+border:1px solid #25692A;
+border-radius:4px;
+display:inline-block;
+cursor:pointer;
+font-weight:bold;
+font-size: 11px;
+padding:4px 7px;
+text-decoration:none;
+} 
+
+
+.bt-lj {
+border-color:#eb9b48;
+background:linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%);
+box-shadow:inset 0px 1px 0px 0px #fdf7f0;
+color:#333;
+text-shadow:0px 1px 0px #ffee66;
+text-align: center;
+}
+
+.navegacao{
+	height: 70px;
+	color:#ebd1a4;
+}
+
+.menuCor {
+	background-color: white;
+	width:100%;
+	height:200px;
+
+}
+.logar{
+	color:#ebd1a4;
+}
+
+.botao {
+	padding-top: 4px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  background-color: black;
+  border: none;
+  color:#ebd1a4;
+}
+
+.linha {
+	background-color: #787716;
+	height: 4px;
+}
+
+.menu2 {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.menu3 {
+	width: 70px;
+	height: 40px;
+	margin-bottom: 40px;
+	
+}
+.cor {
+	color:#ebd1a4;
+}
+.backcor {
+	border-color: #ebd1a4;
+	color:#ebd1a4;
+
+}
+.texto-in {
+	width: 100%;
+	height:250px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.promocao {
+	width: 100%;
+	height:250px;
+	padding-top: 2%;
+	padding-right: 2%;
+	border-top: 3px solid #787716;
+	border-bottom: 3px solid #787716;
+	color:white;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, gray 200%);
+    background-repeat: no-repeat, repeat;
+	font-weight: bold;
+	border-radius: 10px;
+	font-size: 30px;	
+}
+
+.user-img-menu {
+	width: 30px; 
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.btn-show-pass {
+	/* position: relative;
+	    top: -38px; */
+}
+
+.borda2 {
+	width: 100%;
+	height: 100%;
+	border-right: 3px solid black;
+	color:#ebd1a4;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, white 70%, white 300%);
+    background-repeat: no-repeat, repeat;
+    border: 3px solid #787716;
+	border-radius: 10px;
+	padding-bottom: 15px;
+
+}
+
+.tela {
+	width: 100%;
+	height: 130px;
+}
+.btn-outline-warning {
+	color: #ebd1a4;
+	border-color:#ebd1a4;
+}
+
+.promocao h4 {
+	margin-top: 30px;
+
+}
+
+.promocao2 {
+	border: 1px solid #787716;
+	width: 250px;
+	height:50px;
+	margin-top: 70px;
+	border-radius: 15px;
+
+}
+
+.promocao2 h4 {
+	margin-top: 7px;
+}
+
+
+. {
+	margin-bottom: 40px;
+
+}
+
+.promocao10 {
+	border: 2px solid #787716;
+	width: 25%;
+	height:50px;
+	border-radius: 15px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 130%);
+    background-repeat: no-repeat, repeat;
+    color: #ebd1a4;
+    margin-bottom: 20px;
+}
+
+.promocao10 h4 {
+	margin-top:10px;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 25px;
+}
+
+.logo2 {
+	width: 40px;
+	height: 40px;
+	margin-top: 0px;
+
+
+}
+
+.selecione {
+
+	width: 70%;
+	height: 15%;
+	border: 1px solid #787716;
+	color:#ebd1a4;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 300%);
+    background-repeat: no-repeat, repeat;
+	border: 3px solid #787716;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+
+}
+
+.reserva {
+	width: 200px;
+	height: 25px;
+	float:right;
+	margin-right:35px;
+}
+.slide {
+	width: 100%;
+	height: 650px;
+	margin-top: 0px;
+
+
+}
+.slide2 {
+	width: 100%;
+	height: 650px;
+	margin-top: 0px;
+
+
+}
+
+.slide3 {
+	width: 100%;
+	height: 600px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+
+
+}
+.menu3 {
+	 text-align: center;
+	 color: black;
+}
+.imagem {
+	width: 50px;
+	height: 50px;
+
+
+}
+.texto {
+	text-align: left;
+	padding-left: 100px;
+}
+
+
+
+.pizzatexto {
+	padding-left:0px;
+}
+.imagem2 {
+	width: 150px;
+	height: 130px;
+	float:left;
+	margin: 0px;
+}
+.rodape {
+	background-color: black;
+	width:150px;
+	height: 150px;
+
+}
+
+
+.rodape {
+	background-color: black;
+	width: 100%;
+	height: 170px;
+}
+
+#redeS {
+	width: 100px;
+	height: 170px;
+	margin-right: 0px;
+}
+
+	
+
+
+
+
+
+
+}
+
+.ajuda {
+	float:right;
+	margin-top: 120px;
+	padding: 0;
+	width: 100px;
+}
+
+.ajuda h5 {
+	width: 10px;
+	font-size: 15px;
+}
+
+.medidas-in {
+
+	width:100%;
+	height:100px;
+	padding-top:20px;
+
+}
+
+/*index
+*/
+
+
+.pizza {
+	width: 33%;
+	height: 25%;	
+	float: left;
+	padding-left: 50px;
+	font-size:15px;
+	text-decoration:none;
+
+	
+}
+
+.fonte{
+	font-size:15;	
+}
+.pizza td {
+	padding-bottom: 100px;	
+
+}
+.pizza p {
+	padding-left: 200px;	
+
+}
+.pizza h3 {
+	padding-left: 200px;
+	font-size: 200%;	
+}
+.pizza h5 {
+	padding-left: 200px;
+	font-size: 100%;	
+}
+
+.meio-index {
+	width:100%;
+	height:1400px;
+	padding-bottom: 50px;
+}
+
+.meio-index2 {
+	width:100%;
+	height:100%;
+	padding-top: 50px;
+}
+
+.forma-pizza {
+	width:100%;
+	height:70%;
+	border: 1px solid #787716;
+	color:#ebd1a4;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, gray 250%);
+    background-repeat: no-repeat, repeat;
+	border: 3px solid #787716;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+
+.menu-index {
+	width:100%;
+	height:130px;
+	background-color: black;
+}
+
+.menu-separa {
+	width: 25%;
+	height:130px;
+	background-color: blue;
+	float: left;
+}
+
+.button {
+	width: 100%;
+	height:100%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.button i{
+	margin-bottom: 15px;
+	
+}
+
+.button1 {
+  background-color: white; 
+  color: #465110; 
+  border-top: 15px solid #465110;
+  border-bottom: 3px solid;
+}
+
+.button1:hover {
+  background-color: #465110;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: #dfbb3b; 
+  border-top: 15px solid #dfbb3b;
+  border-bottom: 3px solid;
+}
+
+.button2:hover {
+  background-color: #dfbb3b;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: #f44336;
+  border-top: 15px solid #f44336;
+  border-bottom: 3px solid;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border-top: 15px solid #e7e7e7;
+  border-bottom: 3px solid;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border-top: 15px solid black;
+  border-bottom: 3px solid;
+}
+
+.button5:hover {
+  background-color: black;
+  color: white;
+}
+
+/*footer
+*/
+
+.fotter-classe {
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 290%);
+    background-repeat: no-repeat, repeat;
+	color:#ebd1a4;
+	width: 100%;
+	height: 90px;
+}
+
+.icone-footer {
+	width:5%;
+	height:100%;
+	float: left;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-right: 10px;
+
+}
+
+.icone-tamanho {
+	
+	width:80%;
+	height:40%;
+	margin-top:5px;
+	float: left;
+}
+
+.icone-tamanho4{
+	font-size: 30px;
+	color: #ebd1a4;
+
+}
+
+.icone-tamanho2{
+	width:100%;
+	height:100%;
+}
+
+.icone-tamanho3{
+	width:60px;
+	height:60px;
+	float: left;
+	font-size: 100%;
+}
+
+.footer-meio {
+	width:100%;
+	height:100%;
+}
+
+.meio {
+	width:30%;
+	height:100%;
+	padding: 0px;
+	
+}
+
+.meio-cont {
+	width:25%;
+	height:100%;
+	float: left;
+	padding-left: 2%;
+	color:#ebd1a4;
+}
+
+.meio-cont a{
+	color:#ebd1a4;
+}
+
+.forma {
+	width: 50%;
+	height:100%;
+	font-size: 70%;
+	margin-left: 80%;
+	padding-top: 30%;
+
+}
+
+.forma1 {
+	width: 50%;
+	height:100%;
+	font-size: 70%;
+	margin-left: 50%;
+	padding-top: 30%;
+}
+.forma2 {
+	width: 50%;
+	height:100%;
+	font-size: 70%;
+	margin-left: 45%;
+	padding-top: 20%;
+}
+
+.forma3 {
+	width: 100%;
+	height:100%;
+	font-size: 70%;
+	padding-top: 30%;
+	margin-left: 25%;
+}
+
+.forma4 {
+	width: 60%;
+	height:100%;
+	font-size: 70%;
+	padding-top: 30%;
+	margin-left: 10%;
+}
+
+.dropdown-menu a{
+  color: #e6c085;
+  background-color: black;
+  border-color: #f1d300;
+}
+
+
+/* class applies to select element itself, not a wrapper element */
+.select-css {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.3;
+    float: left;
+    padding: 0.9%;
+    width: 70%;
+    max-width: 100%; /* useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-left: 12%;
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+        for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+        
+    */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #f1d300 70%, white 130%);
+    background-repeat: no-repeat, repeat;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+}
+/* Hide arrow icon in IE browsers */
+.select-css::-ms-expand {
+    display: none;
+}
+/* Hover style */
+.select-css:hover {
+    border-color: #888;
+}
+/* Focus style */
+.select-css:focus {
+    border-color: #aaa;
+    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+}
+
+
+.segundo {
+	width:50%;
+	height:50px;
+	float: left;
+}
+
+	/*pedido
+*/
+
+.pedido {
+	height:100%;
+	width:100%;
+	background-color: white;
+	color: #ebd1a4;
+
+}
+
+.medidas {
+
+	width:100%;
+	height:100px;
+	padding-top:20px;
+
+}
+
+.tela2 {
+	width: 100%;
+	height: 130px;
+}
+
+.promocao3 {
+	border: 2px solid #787716;
+	width: 25%;
+	height:50px;
+	border-radius: 15px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, gray 170%);
+    background-repeat: no-repeat, repeat;
+}
+
+.promocao3 h4 {
+	margin-top:10px;
+}
+
+.medidas2 {
+
+	width:100%;
+	height:70px;
+
+
+}
+
+#ddlCars {
+    min-height:190px; 
+    overflow-y :auto; 
+    overflow-x:hidden; 
+    position:absolute;
+    width:300px;
+    display: contents;
+ }
+
+.promocao4 {
+	width: 60%;
+	height:50px;
+}
+
+.promocao4 h4 {
+	margin-top:10px;
+}
+
+.div-select {
+    width:30%;  /* Tamanho final do select */
+    overflow:hidden; /* Esconde o conteúdo que passar do tamanho especificado */
+    border-radius: 15px;
+    margin-left: 50px;
+    text-align: center;
+    float: left;
+    margin-right: 95px;
+
+}
+  
+.div-select select {
+      background-position: 205px center;  /*Posição da imagem do background*/
+      width: 200px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+      height:48px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */
+      font-family:Arial, Helvetica, sans-serif; /* Fonte do Select */
+      font-size:14px; /* Tamanho da Fonte */
+      padding:13px 20px 13px 25px; /* Configurações de padding para posicionar o texto no campo */
+      color:#fff; /* Cor da Fonte */
+      text-indent: 0.01px; /* Remove seta padrão do FireFox */
+      text-overflow: "";  /* Remove seta padrão do FireFox */     
+      select::-ms-expand {display: none;} /* Remove seta padrão do IE*/
+}
+
+.metade {
+	
+	width:100%;
+	height:410px;
+}
+
+.sabor {
+	background-color:white;
+	width: 30%;
+	height: 400px;
+	/*height:500px;*/
+	float: left;
+	border-radius: 30px;
+	border: 2px solid #787716;
+
+}
+
+.sabor img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.sabor2 {
+	background-color: white;
+	width: 30%;
+	height: 400px;
+	/*height:500px;*/
+	float: left;
+	border-radius: 30px;
+	border: 2px solid #787716;
+}
+
+.sabor2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.detalhes-pizza {
+	width: 40%;
+	height:500px;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.select-css option{
+	background-color: #f1d300;
+
+}
+
+.detalhes-pizza div {
+	width: 100%;
+	height:195px;
+	padding:30px;
+	margin-bottom: 10px;
+}
+
+.molde {
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, gray 250%);
+    background-repeat: no-repeat, repeat;
+	border-radius: 30px;
+	border: 2px solid #787716;
+}
+.molde2 {
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, gray 250%);
+    background-repeat: no-repeat, repeat;
+	border-radius: 30px;
+	border: 2px solid #787716;
+}
+
+.promocao5 {
+	border: 1px solid #787716;
+	width: 170px;
+	height:35px;
+	border-radius: 15px;
+}
+
+.promocao5 h4 {
+	margin-top:3px;
+	font-size:25px;
+}
+
+.preco {
+	width: 100%;
+	height:70px;
+	padding-top:0.7%;
+	padding-left:0.9%;
+}
+
+.promocao6 {
+
+	border: 1px solid #787716;
+	width: 15%;
+	height:50px;
+	border-radius: 10px;
+}
+
+.promocao6 h4 {
+	margin-top:10px;
+	font-size: 100%;
+	float:left;
+	margin-left:10%;
+}
+
+
+
+.bebida {
+	width:100%;
+	height: 450px;
+
+}
+
+.bebidas {
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 500%);
+    background-repeat: no-repeat, repeat;
+	width:50%;
+	height: 90%;
+	padding-top:10px;
+	border-radius: 15px;
+	border: 2px solid #787716;
+}
+
+.promocao7 {
+	
+	border: 2px solid #787716;
+	width: 20%;
+	height:40px;
+	border-radius: 15px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 200%);
+    background-repeat: no-repeat, repeat;
+}
+
+.promocao7 h4 {
+	margin-top:5px;
+	font-size: 130%;
+	margin-left:5%;
+}
+
+.terceiro {
+	width:50%;
+	height:0px;
+	float: left;
+}
+
+.promocao8 {
+	width: 50%;
+	height:50px;
+	float:left;
+	padding-left: 1%;
+}
+
+.select-css2 {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.3;
+    float: left;
+    padding: 0.9%;
+    width: 150%;
+    max-width: 150%; /* useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-left: 12%;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+ 
+    /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+        for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+        
+    */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #f1d300 70%, white 130%);
+    background-repeat: no-repeat, repeat;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+    height: 70%;
+}
+/* Hide arrow icon in IE browsers */
+.select-css2::-ms-expand {
+    display: none;
+}
+/* Hover style */
+.select-css2:hover {
+    border-color: #888;
+}
+/* Focus style */
+.select-css2:focus {
+    border-color: #aaa;
+    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+}
+
+.promocao9 {
+	
+	width: 50%;
+	height:50px;
+	float:left;
+	
+	padding-top: 9px;
+}
+
+.preco3 {
+
+	border: 1px solid #787716;
+	width: 40%;
+	height:65%;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	 background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20002Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #f1d300 70%, white 130%);
+    background-repeat: no-repeat, repeat;
+	border-radius: .5em;
+	color: black;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+	
+}
+
+.compra {
+	width: 50%;
+	height:85%;
+	padding-bottom: 10px;
+	float: right;
+	padding-left: 20px;
+}
+.comprar {
+	width: 30%;
+	height:30px;
+}
+
+.preco3 h4 {
+	margin-top: 5px;
+	font-size: 80%;
+	float:left;
+	margin-left:10%;
+	margin-bottom: 10px;
+}
+
+.rolagem {
+	overflow: auto;
+	width: 100%; 
+	height: 250px; 
+	border:solid 1px;
+	background-color: white;
+	color: black;
+	border-radius: 15px;	
+}
+
+.rolagem2 {
+	width: 100%;
+}
+
+.tabela5 {
+	width: 10%;
+}
+.tabela6 {
+	width: 40%;
+}
+.tabela7 {
+	width: 30%;
+	margin-left: 50px;
+}
+.tabela8 {
+	width: 20%;
+	margin-left: 50px;
+}
+
+.total7 {
+	width: 100%;
+	height: 200px;
+}
+
+.total-pagar {
+	text-align: center;
+	width: 100%;
+	height: 45px;
+	font-size: 15px;
+	color: white;
+	padding-right: 5px;
+}
+
+.total-pagar h1{
+	font-size: 35px;
+	color: white;
+	
+}
+
+.total-conta {
+
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 150%);
+    background-repeat: no-repeat, repeat;
+	border: 3px solid #787716;
+	width: 11%;
+	height:35px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.total-conta h4 {	
+	font-size: 150%;
+	float:left;
+	margin-left:10%;
+	text-align: center;
+}
+
+.preco-conta {
+	width: 100%;
+	height:35px;
+
+	padding-left:0.9%;
+}
+
+.preco-conta2	 {
+
+	width: 100%;
+	height:55px;
+
+	padding-left:0.9%;
+}
+
+.total-pagar2 {
+	text-align: center;
+	width: 100%;
+	height: 65px;
+	color: ;
+}
+
+.total-conta2 {
+
+	border: 3px solid #787716;
+	width: 11%;
+	height:38px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.compra-conta {
+	width: 15%;
+	height:85%;
+}
+
+.comprar-conta {
+	width: 100%;
+	height:30px;
+	padding-bottom: 30px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, green 70%, white 170%);
+    background-repeat: no-repeat, repeat;
+}
+
+.comprar-conta p{
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.comprar-conta button{
+	padding-bottom: 20px;
+}
+
+/*
+carrinho*/
+
+.carrinho_background {
+	width: 100%;
+	height: 100%;
+}
+
+.carrinho_inicio {
+	width: 100%;
+	height: 600px;
+	background-color: black ;
+	color: #d6a865;
+}
+
+.carrinho_total7 {
+	width: 100%;
+	height: 200px;
+	background-color: black ;
+
+}
+
+.carrinho_tela {
+	width:100%;
+	height: 450px;
+
+}
+
+.carrinho_tela2 {
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 500%);
+    background-repeat: no-repeat, repeat;
+	width:50%;
+	height: 100%;
+	border-radius: 15px;
+	border: 2px solid #787716;
+	padding: 10px 20px 10px 20px;
+
+}
+
+.carrinho_tela3 {
+	
+	width: 50%;
+	height:20px;
+	float:left;
+}
+
+.carrinho_rolagem {
+	overflow: auto;
+	width: 100%; 
+	height: 90%; 
+	border:solid 1px;
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+	font-size: 25px	
+}
+
+
+.carrinho_rolagem2 {
+	width: 100%;
+}
+
+.carrinho_tabela5 {
+	width: 10%;
+}
+.carrinho_tabela6 {
+	width: 40%;
+}
+.carrinho_tabela7 {
+	width: 30%;
+	margin-left: 50px;
+}
+.carrinho_tabela8 {
+	width: 300%;
+	margin-left: 110px;
+}
+
+.carrinho_rolagem2 tr {
+	height: 20px; 
+}
+
+.carrinho_rolagem2 tr>td {
+	border-radius: 15px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 45px; 
+}
+
+.carrinho_comprar {
+	width: 30%;
+	height:30px;
+	margin-left: 38px;
+}
+
+.carrinho_preco_conta {
+	width: 100%;
+	padding-left:0.9%;
+}
+
+.carrinho_preco_conta {
+	width: 100%;
+	height:35px;
+
+	padding-left:0.9%;
+	color: #ebd1a4;
+}
+
+.carrinho_preco-conta2	 {
+
+	width: 100%;
+	height:155px;
+
+	padding-left:0.9%;
+}
+
+.carrinho_compra-conta {
+	width: 15%;
+	height:85%;
+}
+
+.carrinho_comprar-conta {
+	width: 100%;
+	height:30px;
+	padding-bottom: 30px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, green 70%, white 170%);
+    background-repeat: no-repeat, repeat;
+}
+
+.carrinho_comprar-conta p{
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.carrinho_comprar-conta button{
+	padding-bottom: 20px;
+}
+
+.carrinho_compra-conta2 {
+	width: 15%;
+	height:25%;
+	padding-bottom: 20px;
+}
+
+.carrinho_comprar-conta2 {
+	width: 100%;
+	height: 30px;
+	padding-bottom: 10px;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #b48b10 70%, white 170%);
+    background-repeat: no-repeat, repeat;
+
+}
+
+.carrinho_comprar-conta2 p{
+	font-size: 12px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-bottom: 100px;
+}
+
+.carrinho_comprar-conta2 a> button{
+	padding-bottom: 50px;
+	height: 50px;
+}

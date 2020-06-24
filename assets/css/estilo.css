@@ -4,8 +4,8 @@ body{
 }
 
 .principal {
-	background-color: white;
-	
+	background-color: black;
+	color:#ebd1a4;
 	width: 100%;
 	padding: 0px; 		
 }
@@ -46,6 +46,12 @@ font-weight:bold;
 font-size: 11px;
 padding:4px 7px;
 text-decoration:none;
+}
+
+.tamanho {
+	height: 550px;
+	padding-top: 50px;
+	color: black;
 } 
 
 
@@ -589,7 +595,7 @@ text-align: center;
 }
 
 .forma3 {
-	width: 100%;
+	width: 50%;
 	height:100%;
 	font-size: 70%;
 	padding-top: 30%;
@@ -620,11 +626,11 @@ text-align: center;
     line-height: 1.3;
     float: left;
     padding: 0.9%;
-    width: 70%;
+    width: 50%;
     max-width: 100%; /* useful when width is set to anything other than 100% */
     box-sizing: border-box;
     margin-top: 7px;
-    margin-left: 12%;
+    margin-left: 29%;
     border-radius: .5em;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -640,6 +646,11 @@ text-align: center;
     background-position: right .7em top 50%, 0 0;
     /* icon size, then gradient */
     background-size: .65em auto, 100%;
+}
+
+.select-css4 {
+	
+	margin-left: 20%;
 }
 /* Hide arrow icon in IE browsers */
 .select-css::-ms-expand {
@@ -672,10 +683,170 @@ text-align: center;
 .pedido {
 	height:100%;
 	width:100%;
-	background-color: white;
+	background-color: black;
 	color: #ebd1a4;
 
 }
+
+.pizza-tamanho {
+	width: 100%;
+	height: 500px;
+	: red;
+}
+
+.parte1 {
+	width: 15%;
+	height: 100%;
+	: blue;
+	float: left;
+	padding: 80px 0px 10px 10px;
+}
+.parte2 {
+	width: 70%;
+	height: 100%;
+	: yellow;
+	float: left;
+}
+.parte3 {
+	width: 15%;
+	height: 100%;
+	: green;
+	float: left;
+	padding: 80px 10px 10px 0px;
+}
+.parte2-topo {
+	width: 100%;
+	height: 10%;
+	: red;
+
+}
+
+
+
+.metade-texto {
+	width: 50%;
+	height: 100%;
+	: orange;
+	border-right: 10px;
+	border-color: black;
+	float: left;
+}
+
+.parte2-meio {
+	width: 100%;
+	height: 80%;
+	: gray;
+
+}
+
+.pizza-metade {
+	width: 50%;
+	height: 100%;
+	: purple;
+	float: left;
+}
+
+.preco-pizza {
+	width: 100%;
+	height:70px;
+	padding-top:0.7%;
+	padding-left:0.9%;
+}
+
+.total-conta2 {
+
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, black 70%, white 150%);
+    background-repeat: no-repeat, repeat;
+	border: 3px solid #787716;
+	width: 22%;
+	height:35px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.molde {
+/*	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22htt3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+*/      linear-gradient(to bottom, black 70%, gray 250%);
+    background-repeat: no-repeat, repeat;
+	border-radius: 30px;
+	width: 44%;
+	height: 100%;
+	padding: 50px 0px 0px 50px;
+	
+	float: left;
+}
+.molde h2 {
+	margin-bottom: 20px;
+}
+
+.molde-classe {
+	width: 55%;
+	height:330px;
+	padding-left: 70px;
+	float: left;
+}
+.molde-classe2 {
+	width: 55%;
+	height:330px;
+	padding-right: 70px;
+	float: right;
+}
+.molde2 {
+/*	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+*/      linear-gradient(to bottom, black 70%, gray 250%);
+    background-repeat: no-repeat, repeat;
+	border-radius: 30px;
+	width: 44%;
+	height: 100%;
+	padding: 50px 10px 0px 50px;
+	
+	float: right;
+}
+.molde2 h2 {
+	margin-bottom: 20px;
+}
+
+.sabor {
+	background-color:white;
+	color: black;
+	width: 98%;
+	height: 100%;
+	/*height:500px;*/
+	float: right;
+	border-radius: 30px;
+	border: 2px solid #787716;
+	padding-top: 20px;
+
+}
+
+.sabor img {
+	width: 210%;
+	height: 100%;
+	float: right;
+}
+
+
+
+.sabor2 {
+	background-color: white;
+	color: black;
+	width: 98%;
+	height: 100%;
+	/*height:500px;*/
+	float: left;
+	border-radius: 30px;
+	border: 2px solid #787716;
+	padding-top: 20px;
+}
+
+.sabor2 img {
+	width: 210%;
+	height: 100%;
+	float: left;
+}
+
+
 
 .medidas {
 
@@ -760,38 +931,7 @@ text-align: center;
 	height:410px;
 }
 
-.sabor {
-	background-color:white;
-	width: 30%;
-	height: 400px;
-	/*height:500px;*/
-	float: left;
-	border-radius: 30px;
-	border: 2px solid #787716;
 
-}
-
-.sabor img {
-	width: 100%;
-	height: 100%;
-}
-
-
-
-.sabor2 {
-	background-color: white;
-	width: 30%;
-	height: 400px;
-	/*height:500px;*/
-	float: left;
-	border-radius: 30px;
-	border: 2px solid #787716;
-}
-
-.sabor2 img {
-	width: 100%;
-	height: 100%;
-}
 
 .detalhes-pizza {
 	width: 40%;
@@ -813,20 +953,7 @@ text-align: center;
 	margin-bottom: 10px;
 }
 
-.molde {
-	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
-      linear-gradient(to bottom, black 70%, gray 250%);
-    background-repeat: no-repeat, repeat;
-	border-radius: 30px;
-	border: 2px solid #787716;
-}
-.molde2 {
-	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F20%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
-      linear-gradient(to bottom, black 70%, gray 250%);
-    background-repeat: no-repeat, repeat;
-	border-radius: 30px;
-	border: 2px solid #787716;
-}
+
 
 .promocao5 {
 	border: 1px solid #787716;
@@ -866,7 +993,8 @@ text-align: center;
 
 .bebida {
 	width:100%;
-	height: 450px;
+	height: 470px;
+	padding-top: 70px;
 
 }
 
@@ -1072,6 +1200,7 @@ text-align: center;
 	height:35px;
 	border-radius: 10px;
 	text-align: center;
+
 }
 
 .total-conta h4 {	
@@ -1106,7 +1235,7 @@ text-align: center;
 .total-conta2 {
 
 	border: 3px solid #787716;
-	width: 11%;
+	width: 22%;
 	height:38px;
 	border-radius: 10px;
 	text-align: center;

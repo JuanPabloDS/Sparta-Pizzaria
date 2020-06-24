@@ -27,7 +27,7 @@ class PizzaDAO extends Model
     }
     public function listarDemonstrativo()
     {
-    	$sql = "SELECT * FROM {$this->tabela} limit 12";
+    	$sql = "SELECT * FROM {$this->tabela} order by rand() limit 12";
     	$stmt = $this->db->prepare($sql);
     	$stmt->setFetchMode(PDO::FETCH_CLASS, $this->class);
     	$stmt->execute();

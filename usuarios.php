@@ -1,6 +1,9 @@
 <?php include './layout/header.php'; ?>
-<?php include './layout/menu.php'; ?>
+<?php include './layout/menu_administrativo.php'; ?>
 <?php 
+define('DS', DIRECTORY_SEPARATOR);
+define('ROOT', dirname(__FILE__));
+$path = $_SERVER['DOCUMENT_ROOT'];
 
 require 'classes/Usuario.php';
 require 'classes/UsuarioDAO.php';
@@ -13,7 +16,6 @@ $usuarios = $usuarioDAO->listar();
 	 echo '<div class="alert alert-info">'.$_GET['msg'].'</div>';
 	}
 ?>
-<div class="container"> 
 <div class="row" style="margin-top:40px">
 	<div class="col-10">
 		<h2>Gerenciar usuarios</h2>
@@ -26,6 +28,7 @@ $usuarios = $usuarioDAO->listar();
 	<table class="table table-hover table-bordered table-striped">
 		<thead>
 			<tr>
+				<th></th>
 				<th>#ID</th>
 				<th>Nome</th>
 				<th>E-mail</th>
@@ -35,18 +38,21 @@ $usuarios = $usuarioDAO->listar();
 		<tbody>
 			<?php foreach($usuarios as $usuario){ ?>
 			<tr>
-				<td><?= $usuario->getId() ?></td>
+				<td class="text-center">
+					<img src="/SpartaPizzaria/administrativo/assets/img/usuarios/<?= ($usuario->getImagem() != '' && file_exists('assets/img/usuarios/'.$usuario->getImagem()) ? $usuario->getImagem() : 'usuario.png') ?>" alt="" width="50" class="rounded-circle">
+				</td>
+				<th><?= $usuario->getId() ?></th>
 				<td><?= $usuario->getNome() ?></td>
 				<td><?= $usuario->getEmail() ?></td>
 				<td>
 					<a href="form_usuario.php?id=<?= $usuario->getId() ?>">Editar</a> | 
-					<a href="controle_usuario.php?acao=deletar&id=<?= $usuario->getId() ?>" onclick="return confirm('Deseja realmente excluir?')">Excluir</a>
+					<a href="controle_usuario.php?acao=deletar&id=<?= $usuario->getId() ?>" onclick="return confirm('Deseja realmente excluir?')">Excluir</a> | 
+					<a href="controle_usuario.php?acao=removeImagem&id=<?= $usuario->getId() ?>" onclick="return confirm('Deseja realmente remover a imagem?')">Remover imagem</a>
 				</td>
 			</tr>
 			<?php } ?>
 		</tbody>
 	</table>
-</div>
 </div>
 
 <?php include './layout/footer.php'; ?>

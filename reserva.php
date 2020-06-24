@@ -3,7 +3,7 @@
 
 
 <div style="width: 100%; height: 750px; background-color: white ">
-	<form>
+	<form action="controle_reserva.php?acao=<?= ( $usuario->getId() != '' ? 'editar' : 'cadastrar' )?>" method="post">
 <div class="medidas" style="color: #787716; margin: 0px; " >
 			<div class="">
 				<div class="container promocao3" >
@@ -14,19 +14,19 @@
 <div class="container-xl p-3 my-3 text-white" style=" background-color: black; border-radius: 15px; ">
   <div class="form-group">
       <label for="inputNome">Nome</label>
-      <input type="nome" class="form-control" id="inputNome" placeholder="Nome">
+      <input type="nome" class="form-control" id="inputNome" name="inputNome" placeholder="Nome">
     </div>
   <div class="form-group">
       <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <input type="email" class="form-control" id="inputEmail4" name="inputemail" placeholder="Email">
     </div>
      <div class="form-group">
     <label for="inputTelefone">Telefone</label>
-    <input type="Telefone" class="form-control" id="inputTelefone" placeholder="(XX)XXXXX-XXXX">
+    <input type="Telefone" class="form-control" id="inputTelefone" name="inputTelefone" placeholder="(XX)XXXXX-XXXX">
   </div>
     <div class="form-group">
       <label for="inputPessoa">Quantidade de pessoas</label>
-      <select id="inputPessoa" class="form-control">
+      <select id="inputPessoa" name="inputPessoa" class="form-control">
         <option selected>Selecione</option>
         <option>1</option>
         <option>2</option>
@@ -63,7 +63,7 @@
     </div>
     <div class="form-group">
       <label for="inputHora">Hora</label>
-      <select id="inputHora" class="form-control">
+      <select id="inputHora" name="inputHora" class="form-control">
         <option selected>Selecione</option>
         <option>18:00</option>
         <option>18:30</option>

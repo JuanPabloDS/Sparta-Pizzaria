@@ -7,7 +7,7 @@
 
           },
           success: function(resultado) {
-            $('#sabor1').html('<img class="" src="'+ resultado +'" style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);right: -50%;position: relative;">');
+            $('#sabor1').html('<img class="" src="'+ resultado +'" style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);right: -107%;position: relative;">');
           }
         });
 	}
@@ -19,7 +19,7 @@
 
           },
           success: function(resultado) {
-            $('#sabor2').html('<img src="'+ resultado +'" style="clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);left: -50%;position: relative;">');
+            $('#sabor2').html('<img src="'+ resultado +'" style="clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);left: -107%;position: relative;">');
           }
         });
 	}

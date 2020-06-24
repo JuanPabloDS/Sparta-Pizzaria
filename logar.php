@@ -9,6 +9,7 @@
 	}
 	?>
 </div>
+<div class="tamanho">
 <div class="row">
 	<div class="col-4 offset-4 ">
 		<div class="card">
@@ -32,7 +33,7 @@
 						<button type="submit" class="btn btn-primary btn-block">Logar</button>
 					</div>
 				</form>
-					<a href="form_usuario.php">
+					<a href="form_cliente.php">
 						<div class="form-group row">
 							<button type="submit" class="btn btn-primary btn-block">Cadastre-se</button>
 						</div>
@@ -42,6 +43,7 @@
 	</div>
 </div>
 
+</div>
 </div>
 
 <?php include './layout/footer.php'; ?>

@@ -13,7 +13,7 @@
 					<div class="meio container">
 						<div class="meio-cont">
 							<form class="forma">
-								<a class="" href="#">Quem somos</a>
+								<a class="" href="quemsomos.php">Quem somos</a>
 							</form>
 						</div>
 						<div class="meio-cont">
@@ -23,12 +23,12 @@
 						</div>
 						<div class="meio-cont">
 							<form class="forma3">
-								<a class="" href="#">Horário de atendimento</a>
+								<a class="" href="administrativo/index.php">Acesso Restrito</a>
 							</form>
 						</div>
 						<div class="meio-cont">
 							<form class="forma4">
-								<a class="" href="#">Termos de uso</a>
+								<a class="" href="termos.php">Termos de uso</a>
 							</form>
 						</div>
 
